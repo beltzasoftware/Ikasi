@@ -1,0 +1,53 @@
+Política de Privacidad de Ikasi
+
+Última actualización: 01/10/2026
+
+Introducción
+
+Ikasi es una aplicación educativa diseñada para facilitar el aprendizaje mediante actividades y ejercicios interactivos.
+
+Esta aplicación ha sido desarrollada respetando la privacidad de los usuarios y minimizando el tratamiento de información personal.
+
+Recopilación de datos
+
+Ikasi no recopila, almacena ni transmite datos personales de los usuarios.
+
+La aplicación:
+
+No requiere registro de usuario.
+No solicita nombres, direcciones de correo electrónico ni números de teléfono.
+No recopila datos de ubicación.
+No accede a contactos, fotografías o archivos personales.
+No utiliza herramientas de análisis de uso ni servicios publicitarios.
+No comparte información con terceros.
+Almacenamiento local
+
+Los datos necesarios para el funcionamiento de la aplicación, como el progreso o las preferencias del usuario, se almacenan exclusivamente en el propio dispositivo.
+
+Estos datos nunca se transmiten al desarrollador ni a terceros.
+
+Servicios de terceros
+
+Ikasi no utiliza servicios externos para recopilar información personal de los usuarios.
+
+Menores de edad
+
+Ikasi está orientada al ámbito educativo y puede ser utilizada por menores de edad.
+
+La aplicación no recopila datos personales de los usuarios ni realiza seguimiento de su actividad.
+
+Seguridad
+
+Al no recopilar ni transmitir información personal, los riesgos asociados al tratamiento de datos son mínimos. No obstante, se aplican buenas prácticas de desarrollo para garantizar el correcto funcionamiento de la aplicación.
+
+Cambios en esta política
+
+Esta Política de Privacidad podrá actualizarse en el futuro para reflejar cambios en la aplicación o en la normativa aplicable.
+
+Las modificaciones se publicarán en esta misma página.
+
+Contacto
+
+Para cualquier consulta relacionada con esta Política de Privacidad, puede contactar con el desarrollador en:
+
+beltzasoftware@gmail.com
