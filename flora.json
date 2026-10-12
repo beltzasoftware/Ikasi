@@ -1,0 +1,20 @@
+{
+  "es": {
+    "comun": [
+      {
+        "question": "¿Qué parte de la planta absorbe el agua de la tierra?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz"
+      }
+    ]
+  },
+  "eu": {
+    "comun": [
+      {
+        "question": "Landarearen zein atalek xurgatzen du ura lurretik?",
+        "options": ["Hostoak", "Zurtoina", "Erroa", "Lorea", "Fruitua", "Adarra"],
+        "answer": "Erroa"
+      }
+    ]
+  }
+}
