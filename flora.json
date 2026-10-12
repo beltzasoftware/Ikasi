@@ -4,7 +4,8 @@
       {
         "question": "¿Pregunta de prueba?",
         "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
-        "answer": "Raíz"
+        "answer": "Raíz",
+        "tags": ["flora"]
       }
     ]
   },
@@ -13,7 +14,8 @@
       {
         "question": "Landarearen zein atalek xurgatzen du ura lurretik?",
         "options": ["Hostoak", "Zurtoina", "Erroa", "Lorea", "Fruitua", "Adarra"],
-        "answer": "Erroa"
+        "answer": "Erroa",
+        "tags": ["flora"]
       }
     ]
   }
