@@ -2,7 +2,7 @@
   "es": {
     "comun": [
       {
-        "question": "¿Qué parte de la planta absorbe el agua de la tierra?",
+        "question": "¿Pregunta de prueba?",
         "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
         "answer": "Raíz"
       }
