@@ -6,6 +6,36 @@
         "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
         "answer": "Raíz",
         "tags": ["flora"]
+      },
+      {
+        "question": "¿Pregunta de prueba?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz",
+        "tags": ["flora"]
+      },
+      {
+        "question": "¿Pregunta de prueba?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz",
+        "tags": ["flora"]
+      },
+            {
+        "question": "¿Pregunta de prueba?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz",
+        "tags": ["flora"]
+      },
+      {
+        "question": "¿Pregunta de prueba?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz",
+        "tags": ["flora"]
+      },
+      {
+        "question": "¿Pregunta de prueba?",
+        "options": ["Hojas", "Tallo", "Raíz", "Flor", "Fruto", "Rama"],
+        "answer": "Raíz",
+        "tags": ["flora"]
       }
     ]
   },
