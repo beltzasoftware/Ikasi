@@ -1,0 +1,4 @@
+{
+  "es": { "comun": [ { "question": "¿Dónde vive el oso polar?", "options": ["Ártico", "Selva", "Desierto", "Bosque", "Antártida", "Pradera"], "answer": "Ártico" } ] },
+  "eu": { "comun": [ { "question": "Non bizi da hartz polarra?", "options": ["Artikoan", "Oihanean", "Basamortuan", "Basoan", "Antartikan", "Belardian"], "answer": "Artikoan" } ] }
+}

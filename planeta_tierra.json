@@ -1,0 +1,4 @@
+{
+  "es": { "comun": [ { "question": "¿Cuántos continentes hay en la Tierra?", "options": ["5", "6", "4", "7", "3", "8"], "answer": "5" } ] },
+  "eu": { "comun": [ { "question": "Zenbat kontinente daude Lurran?", "options": ["5", "6", "4", "7", "3", "8"], "answer": "5" } ] }
+}
