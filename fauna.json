@@ -1904,11 +1904,51 @@
 
     "eu": {
     "comun": [
-      {
-        "question": "Zein animalia da oihaneko erregea?",
-        "options": ["Lehoia", "Tigrea", "Elefantea", "Zebra", "Jirafa", "Gorila"],
-        "answer": "Lehoia"
-      }
+{ "question": "Zein animalia da oihaneko erregea bezala ezaguna?", "options": ["Lehoia", "Tigrea", "Elefantea", "Zebra", "Jirafa", "Gorila"], "answer": "Lehoia", "tags": ["ugaztuna"] },
+{ "question": "Zein da munduko animalia altuena?", "options": ["Elefantea", "Jirafa", "Ostruka", "Hartza", "Zaldia", "Hipopotamoa"], "answer": "Jirafa", "tags": ["ugaztuna"] },
+{ "question": "Zein da gaueko hegazti harrapari ezagunena?", "options": ["Hontza", "Arranoa", "Belatza", "Putrea", "Zikoina", "Usoa"], "answer": "Hontza", "tags": ["harrapariak"] },
+{ "question": "Zein da planetako animalia handiena?", "options": ["Balea urdina", "Elefantea", "Orka", "Marrazo zuria", "Hipopotamoa", "Jirafa"], "answer": "Balea urdina" },
+{ "question": "Zein animaliak erruten ditu arrautzak?", "options": ["Oiloa", "Txakurra", "Katua", "Zaldia", "Tximinoa", "Hartza"], "answer": "Oiloa" },
+{ "question": "Zein animaliak du tronpa luzea?", "options": ["Elefantea", "Errinozeroa", "Hipopotamoa", "Jirafa", "Gamelua", "Bufaloa"], "answer": "Elefantea" },
+{ "question": "Zein animaliak ditu marra zuri-beltzak?", "options": ["Zebra", "Tigrea", "Lehoinabarra", "Pantera", "Hiena", "Katamotza"], "answer": "Zebra" },
+{ "question": "Zein animalia bizi da ozeanoan eta zortzi beso ditu?", "options": ["Olagarroa", "Marrazoa", "Izurdea", "Medusa", "Balea", "Foka"], "answer": "Olagarroa" },
+{ "question": "Zein animalia da bere oskol gogorragatik ezaguna?", "options": ["Dortoka", "Karramarroa", "Barraskiloa", "Armadilloa", "Trikua", "Otarraina"], "answer": "Dortoka" },
+{ "question": "Zein da lurreko animaliarik azkarrena?", "options": ["Gepardoa", "Lehoia", "Tigrea", "Otsoa", "Zebra", "Antilopea"], "answer": "Gepardoa" },
+{ "question": "Zein animalia bizi da Ipar Poloan?", "options": ["Hartz polarra", "Pinguinoa", "Foka", "Otso artikoa", "Elur-oreina", "Azeri artikoa"], "answer": "Hartz polarra" },
+{ "question": "Zein animalia bizi da Hego Poloan?", "options": ["Pinguinoa", "Hartz polarra", "Foka", "Balea", "Orka", "Petrela"], "answer": "Pinguinoa" },
+{ "question": "Zein animaliak egiten du salto eta bere kumeak poltsa batean eramaten ditu?", "options": ["Kangurua", "Koala", "Lemurra", "Tximinoa", "Azeria", "Puma"], "answer": "Kangurua" },
+{ "question": "Zein animalia da bere alferkeriagatik ospetsua?", "options": ["Nagia", "Hartza", "Koala", "Katua", "Dortoka", "Hipopotamoa"], "answer": "Nagia" },
+{ "question": "Zein animaliak du konkorra?", "options": ["Gamelua", "Zaldia", "Behia", "Zebra", "Elur-oreina", "Bisontea"], "answer": "Gamelua" },
+{ "question": "Zein animalia da bere adar handiagatik ezaguna?", "options": ["Errinozeroa", "Zezena", "Oreinak", "Bufaloa", "Ahuntza", "Antilopea"], "answer": "Errinozeroa" },
+{ "question": "Zein animalia bizi da zuhaitzetan eta hostoak jaten ditu?", "options": ["Koala", "Tximinoa", "Nagia", "Urtxintxa", "Loroa", "Iguana"], "answer": "Koala" },
+{ "question": "Zein animalia da soinuak imitatzeko gaitasunagatik ospetsua?", "options": ["Loroa", "Belea", "Oilarra", "Indioilarra", "Kanarioa", "Hontza"], "answer": "Loroa" },
+{ "question": "Zein animaliak du adar multzo handia?", "options": ["Oreina", "Ahuntza", "Bisontea", "Zezena", "Elur-oreina", "Antilopea"], "answer": "Oreina" },
+{ "question": "Zein animalia bizi da uretan eta zakatzekin arnasten du?", "options": ["Arraina", "Izurdea", "Balea", "Foka", "Dortoka", "Karramarroa"], "answer": "Arraina" },
+{ "question": "Zein animaliak ditu orban beltz eta horiak?", "options": ["Lehoinabarra", "Gepardoa", "Tigrea", "Hiena", "Pantera", "Katamotza"], "answer": "Lehoinabarra" },
+{ "question": "Zein animalia da oso motela eta oskola du?", "options": ["Dortoka", "Barraskiloa", "Nagia", "Trikua", "Armadilloa", "Karramarroa"], "answer": "Dortoka" },
+{ "question": "Zein animalia da bere tamaina handiagatik eta letagin luzeengatik ezaguna?", "options": ["Elefantea", "Mamuta", "Basurdea", "Hipopotamoa", "Errinozeroa", "Hartza"], "answer": "Elefantea" },
+{ "question": "Zein animalia bizi da sabanan eta orbanak ditu?", "options": ["Gepardoa", "Lehoinabarra", "Hiena", "Zebra", "Jirafa", "Lehoia"], "answer": "Gepardoa" },
+{ "question": "Zein animalia da igotzeko duen trebetasunagatik ospetsua?", "options": ["Tximinoa", "Katua", "Urtxintxa", "Koala", "Katamotza", "Hartza"], "answer": "Tximinoa" },
+{ "question": "Zein animaliak moko luzea du eta uretan bizi da?", "options": ["Pelikanoa", "Flamenkoa", "Ahatea", "Antzara", "Beltxarga", "Lertxuna"], "answer": "Pelikanoa" },
+{ "question": "Zein animalia da bere indar handiagatik ezaguna?", "options": ["Gorila", "Elefantea", "Tigrea", "Hartza", "Lehoia", "Bufaloa"], "answer": "Gorila" },
+{ "question": "Zein animalia bizi da itsasoan eta bizkar-hegatsa du?", "options": ["Marrazoa", "Izurdea", "Orka", "Hegaluzea", "Ezpata-arraina", "Meroa"], "answer": "Marrazoa" },
+{ "question": "Zein animalia da egunsentian kantatzeagatik ospetsua?", "options": ["Oilarra", "Kanarioa", "Indioilarra", "Belea", "Kaioa", "Hontza"], "answer": "Oilarra" },
+{ "question": "Zein animaliak ditu oskola eta matxardak?", "options": ["Karramarroa", "Otarraina", "Dortoka", "Trikua", "Barraskiloa", "Armadilloa"], "answer": "Karramarroa" },
+{ "question": "Zein animalia da bere mutur handiagatik eta marrumengatik ezaguna?", "options": ["Txerria", "Hartza", "Otsoa", "Txakurra", "Basurdea", "Hipopotamoa"], "answer": "Txerria" },
+{ "question": "Zein animalia bizi da baserrian eta esnea ematen du?", "options": ["Behia", "Ahuntza", "Ardia", "Behorra", "Asto emea", "Gamelu emea"], "answer": "Behia" },
+{ "question": "Zein animalia da bere artileagatik ospetsua?", "options": ["Ardia", "Ahuntza", "Behia", "Alpaka", "Gamelua", "Untxia"], "answer": "Ardia" },
+{ "question": "Zein animalia da oso txikia eta eztia egiten du?", "options": ["Erlea", "Liztorra", "Eltxoa", "Inurria", "Tximeleta", "Kakalardoa"], "answer": "Erlea" },
+{ "question": "Zein animaliak ditu hegoak eta hegan egiten du?", "options": ["Txoria", "Saguzarra", "Tximeleta", "Arranoa", "Kaioa", "Enara"], "answer": "Txoria" },
+{ "question": "Zein animalia da usaimen handiagatik ezaguna?", "options": ["Txakurra", "Otsoa", "Hartza", "Azeria", "Hiena", "Basurdea"], "answer": "Txakurra" },
+{ "question": "Zein animalia bizi da lur azpian eta tunelak zulatzen ditu?", "options": ["Satorra", "Untxia", "Sugea", "Inurria", "Sagua", "Azeria"], "answer": "Satorra" },
+{ "question": "Zein animaliak du eztena?", "options": ["Erlea", "Liztorra", "Eskorpioia", "Medusa", "Eltxoa", "Inurria"], "answer": "Erlea" },
+{ "question": "Zein animaliak kolorea aldatzen du kamuflatzeko?", "options": ["Kameleoia", "Muskerra", "Sugea", "Igela", "Olagarroa", "Arraina"], "answer": "Kameleoia" },
+{ "question": "Zein animalia da uretan duen abiadura handiagatik ezaguna?", "options": ["Izurdea", "Hegaluzea", "Orka", "Marrazoa", "Foka", "Pinguinoa"], "answer": "Izurdea" },
+{ "question": "Zein animalia bizi da oihanean eta zuhaitzen artean kulunkatzen da?", "options": ["Tximinoa", "Lemurra", "Nagia", "Tigrea", "Pantera", "Gorila"], "answer": "Tximinoa" },
+{ "question": "Zein animaliak moko oso luze eta koloretsua du?", "options": ["Tukana", "Loroa", "Flamenkoa", "Pelikanoa", "Kaioa", "Arranoa"], "answer": "Tukana" },
+{ "question": "Zein animalia da bere jauzi handiagatik ospetsua?", "options": ["Kangurua", "Igela", "Gazela", "Erbia", "Katua", "Tximinoa"], "answer": "Kangurua" },
+{ "question": "Zein animalia bizi da uretan eta oskola du?", "options": ["Itsas dortoka", "Karramarroa", "Medusa", "Foka", "Izurdea", "Balea"], "answer": "Itsas dortoka" },
+{ "question": "Zein animalia da bere isats iletsu handiagatik ezaguna?", "options": ["Azeria", "Urtxintxa", "Otsoa", "Katua", "Txakurra", "Mapatxea"], "answer": "Azeria" }
     ]
   }
 }
