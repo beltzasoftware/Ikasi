@@ -1,1 +1,5 @@
+{
+  "es": { "comun": [ { "question": "¿Quién pintó la Mona Lisa?", "options": ["Leonardo da Vinci", "Picasso", "Van Gogh", "Velázquez", "Dalí", "Miró"], "answer": "Leonardo da Vinci" } ] },
+  "eu": { "comun": [ { "question": "Nork margotu zuen Mona Lisa?", "options": ["Leonardo da Vincik", "Picassok", "Van Goghek", "Velazquezek", "Dalik", "Mirok"], "answer": "Leonardo da Vincik" } ] }
+}
 
