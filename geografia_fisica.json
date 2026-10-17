@@ -1,4 +1,35 @@
 {
-  "es": { "comun": [ { "question": "¿Cuál es el río más largo del mundo?", "options": ["Amazonas", "Nilo", "Ebro", "Misisipi", "Danubio", "Ganges"], "answer": "Amazonas" } ] },
-  "eu": { "comun": [ { "question": "Zein da munduko ibairik luzeena?", "options": ["Amazonas", "Nilo", "Ebro", "Misisipi", "Danubio", "Ganges"], "answer": "Amazonas" } ] }
+  "version": "0.0.1",
+  "es": {
+    "comun": [
+      {
+        "question": "¿Cuál es el río más largo del mundo?",
+        "options": [
+          "Amazonas",
+          "Nilo",
+          "Ebro",
+          "Misisipi",
+          "Danubio",
+          "Ganges"
+        ],
+        "answer": "Amazonas"
+      }
+    ]
+  },
+  "eu": {
+    "comun": [
+      {
+        "question": "Zein da munduko ibairik luzeena?",
+        "options": [
+          "Amazonas",
+          "Nilo",
+          "Ebro",
+          "Misisipi",
+          "Danubio",
+          "Ganges"
+        ],
+        "answer": "Amazonas"
+      }
+    ]
+  }
 }
