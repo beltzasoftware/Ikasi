@@ -1,257 +1,40 @@
 {
+  "version": "0.0.1",
   "es": {
-    "comun": 
-[
-  {
-    "question": "¿Qué sustancia da el color verde a las hojas?",
-    "options": ["Clorofila", "Polen", "Savia", "Corteza"],
-    "answer": "Clorofila",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué necesitan las plantas para realizar la fotosíntesis?",
-    "options": ["Luz solar", "Arena", "Piedras", "Viento"],
-    "answer": "Luz solar",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de la planta absorbe agua y minerales del suelo?",
-    "options": ["Raíz", "Flor", "Hoja", "Fruto"],
-    "answer": "Raíz",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué gas toman las plantas del aire para la fotosíntesis?",
-    "options": ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Helio"],
-    "answer": "Dióxido de carbono",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué gas liberan las plantas durante la fotosíntesis?",
-    "options": ["Oxígeno", "Dióxido de carbono", "Helio", "Vapor de azufre"],
-    "answer": "Oxígeno",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de la planta suele convertirse en fruto?",
-    "options": ["Flor", "Raíz", "Tronco", "Rama"],
-    "answer": "Flor",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Cuál es la función principal de las hojas?",
-    "options": ["Realizar la fotosíntesis", "Absorber minerales", "Sujetar la planta", "Producir semillas"],
-    "answer": "Realizar la fotosíntesis",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Dónde se encuentran normalmente las semillas?",
-    "options": ["En el fruto", "En la raíz", "En las ramas", "En la corteza"],
-    "answer": "En el fruto",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte sostiene las hojas, flores y frutos?",
-    "options": ["Tallo", "Raíz", "Semilla", "Pétalo"],
-    "answer": "Tallo",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Cómo se llama el líquido que transporta nutrientes por la planta?",
-    "options": ["Savia", "Polen", "Néctar", "Resina"],
-    "answer": "Savia",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué necesitan las semillas para empezar a germinar?",
-    "options": ["Agua", "Plástico", "Metal", "Vidrio"],
-    "answer": "Agua",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué producen muchas flores para atraer insectos?",
-    "options": ["Néctar", "Arena", "Sal", "Arcilla"],
-    "answer": "Néctar",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué transportan las abejas entre flores?",
-    "options": ["Polen", "Savia", "Corteza", "Raíces"],
-    "answer": "Polen",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Cómo se llama el proceso por el que una semilla empieza a crecer?",
-    "options": ["Germinación", "Polinización", "Respiración", "Evaporación"],
-    "answer": "Germinación",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte del árbol está cubierta por corteza?",
-    "options": ["Tronco", "Semilla", "Flor", "Hoja"],
-    "answer": "Tronco",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué árbol produce bellotas?",
-    "options": ["Roble", "Pino", "Palmera", "Abeto"],
-    "answer": "Roble",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué árbol produce piñas?",
-    "options": ["Pino", "Manzano", "Olivo", "Cerezo"],
-    "answer": "Pino",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de una flor suele tener colores llamativos?",
-    "options": ["Pétalos", "Raíces", "Semillas", "Tallo"],
-    "answer": "Pétalos",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué necesitan las raíces para crecer sanas?",
-    "options": ["Suelo", "Plástico", "Hormigón", "Cristal"],
-    "answer": "Suelo",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Cuál es la principal fuente de energía para las plantas?",
-    "options": ["El Sol", "La Luna", "El viento", "Las piedras"],
-    "answer": "El Sol",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de la planta fija la planta al suelo?",
-    "options": ["Raíz", "Flor", "Hoja", "Fruto"],
-    "answer": "Raíz",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué ocurre durante la polinización?",
-    "options": ["Se transporta polen", "Crecen raíces", "Caen hojas", "Se seca el tallo"],
-    "answer": "Se transporta polen",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué tipo de planta suele tener un tronco leñoso alto?",
-    "options": ["Árbol", "Musgo", "Hierba", "Alga"],
-    "answer": "Árbol",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué necesitan las plantas además de luz para crecer?",
-    "options": ["Agua", "Pintura", "Arena de playa", "Plástico"],
-    "answer": "Agua",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte contiene normalmente las semillas de una planta?",
-    "options": ["Fruto", "Hoja", "Raíz", "Corteza"],
-    "answer": "Fruto",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué árbol produce aceitunas?",
-    "options": ["Olivo", "Roble", "Pino", "Abeto"],
-    "answer": "Olivo",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué árbol produce manzanas?",
-    "options": ["Manzano", "Peral", "Olivo", "Pino"],
-    "answer": "Manzano",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de la planta suele caer en otoño en muchos árboles?",
-    "options": ["Hojas", "Raíces", "Tronco", "Semillas"],
-    "answer": "Hojas",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué almacenan algunas raíces como la zanahoria?",
-    "options": ["Nutrientes", "Piedras", "Aire", "Polen"],
-    "answer": "Nutrientes",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué nombre reciben las plantas que mantienen sus hojas todo el año?",
-    "options": ["Perennes", "Caducas", "Marchitas", "Acuáticas"],
-    "answer": "Perennes",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte de la planta recoge principalmente la luz solar?",
-    "options": ["Hojas", "Raíces", "Semillas", "Corteza"],
-    "answer": "Hojas",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Cómo se llama el polvo fino producido por las flores?",
-    "options": ["Polen", "Savia", "Néctar", "Resina"],
-    "answer": "Polen",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué necesita una semilla para desarrollar una nueva planta?",
-    "options": ["Germinar", "Podarse", "Secarse", "Congelarse"],
-    "answer": "Germinar",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué parte transporta agua desde las raíces hasta las hojas?",
-    "options": ["Tallo", "Pétalo", "Fruto", "Semilla"],
-    "answer": "Tallo",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué planta produce uvas?",
-    "options": ["Vid", "Pino", "Abeto", "Helecho"],
-    "answer": "Vid",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué función tiene el fruto para la planta?",
-    "options": ["Proteger las semillas", "Fabricar raíces", "Sujetar ramas", "Absorber agua"],
-    "answer": "Proteger las semillas",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué elemento del suelo absorben las raíces junto con el agua?",
-    "options": ["Minerales", "Plástico", "Cristales", "Papel"],
-    "answer": "Minerales",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué nombre recibe la capa exterior del tronco?",
-    "options": ["Corteza", "Polen", "Néctar", "Savia"],
-    "answer": "Corteza",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué ayuda a dispersar muchas semillas lejos de la planta madre?",
-    "options": ["Viento", "Hormigón", "Metal", "Vidrio"],
-    "answer": "Viento",
-    "tags": ["flora"]
-  },
-  {
-    "question": "¿Qué producen las plantas gracias a la fotosíntesis?",
-    "options": ["Su alimento", "Piedras", "Arena", "Aceite mineral"],
-    "answer": "Su alimento",
-    "tags": ["flora"]
-  }
-]
-    
+    "comun": [
+      {
+        "question": "¿Qué parte de la planta absorbe el agua de la tierra?",
+        "options": [
+          "Hojas",
+          "Tallo",
+          "Raíz",
+          "Flor",
+          "Fruto",
+          "Rama"
+        ],
+        "answer": "Raíz",
+        "tags": [
+          "flora"
+        ]
+      }
+    ]
   },
   "eu": {
     "comun": [
       {
         "question": "Landarearen zein atalek xurgatzen du ura lurretik?",
-        "options": ["Hostoak", "Zurtoina", "Erroa", "Lorea", "Fruitua", "Adarra"],
+        "options": [
+          "Hostoak",
+          "Zurtoina",
+          "Erroa",
+          "Lorea",
+          "Fruitua",
+          "Adarra"
+        ],
         "answer": "Erroa",
-        "tags": ["flora"]
+        "tags": [
+          "flora"
+        ]
       }
     ]
   }
