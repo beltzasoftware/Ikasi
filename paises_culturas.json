@@ -1,114 +1,1514 @@
 {
+  "version": "0.0.1",
   "es": {
-    "comun":
-    [
-      { "question": "¿Cuál es la montaña más alta de Euskadi?", "options": ["Gorbea", "Anboto", "Aizkorri", "Txindoki", "Jaizkibel", "Oiz"], "answer": "Aizkorri", "tags": ["geografia", "montaña"] },
-      { "question": "¿Qué río pasa por Bilbao?", "options": ["Nervión", "Ebro", "Oria", "Bidasoa", "Zadorra", "Arga"], "answer": "Nervión", "tags": ["geografia", "rio"] },
-      { "question": "¿Cuál es la capital de Navarra?", "options": ["Pamplona", "Tudela", "Estella", "Baztan", "Barañáin", "Alsasua"], "answer": "Pamplona", "tags": ["geografia", "capital"] },
-      { "question": "¿Qué mar baña la costa vasca?", "options": ["Mar Cantábrico", "Mar Mediterráneo", "Océano Atlántico", "Mar del Norte", "Mar Báltico", "Mar Negro"], "answer": "Mar Cantábrico", "tags": ["geografia", "mar"] },
-      { "question": "¿Cuál es el animal típico del País Vasco que aparece en muchos caseríos?", "options": ["Oveja latxa", "Cabra pirenaica", "Vaca frisona", "Caballo árabe", "Cerdo ibérico", "Burro catalán"], "answer": "Oveja latxa", "tags": ["fauna", "euskadi"] },
-      { "question": "¿Qué ciudad es famosa por su festival de cine?", "options": ["San Sebastián", "Bilbao", "Vitoria-Gasteiz", "Pamplona", "Baiona", "Irun"], "answer": "San Sebastián", "tags": ["cultura", "cine"] },
-      { "question": "¿Qué río forma frontera entre España y Francia en el País Vasco?", "options": ["Bidasoa", "Nervión", "Oria", "Ebro", "Zadorra", "Arga"], "answer": "Bidasoa" },
-      { "question": "¿Cuál es el deporte rural vasco donde se levantan piedras?", "options": ["Harrijasotzea", "Sokatira", "Aizkolaritza", "Pelota", "Remonte", "Trontza"], "answer": "Harrijasotzea" },
-      { "question": "¿Qué ciudad vasca tiene un museo muy famoso llamado Guggenheim?", "options": ["Bilbao", "Vitoria-Gasteiz", "Donostia", "Pamplona", "Baiona", "Tolosa"], "answer": "Bilbao" },
-      { "question": "¿Qué montaña es muy conocida por la leyenda de Mari?", "options": ["Anboto", "Gorbea", "Aizkorri", "Oiz", "Txindoki", "Peñas de Aia"], "answer": "Anboto" },
-      { "question": "¿Cuál es la capital de Iparralde (País Vasco francés)?", "options": ["Baiona", "Biarritz", "Donibane Lohizune", "Hendaia", "Urruña", "Sara"], "answer": "Baiona" },
-      { "question": "¿Qué río atraviesa Pamplona?", "options": ["Arga", "Ebro", "Nervión", "Oria", "Bidasoa", "Zadorra"], "answer": "Arga" },
-      { "question": "¿Qué montaña es símbolo de Gipuzkoa?", "options": ["Txindoki", "Aizkorri", "Gorbea", "Anboto", "Oiz", "Jaizkibel"], "answer": "Txindoki" },
-      { "question": "¿Qué ciudad es conocida por los Sanfermines?", "options": ["Pamplona", "Bilbao", "Vitoria-Gasteiz", "Donostia", "Irun", "Baiona"], "answer": "Pamplona" },
-      { "question": "¿Cuál es el río más largo de Álava?", "options": ["Zadorra", "Nervión", "Ebro", "Arga", "Oria", "Bidasoa"], "answer": "Zadorra" },
-      { "question": "¿Qué isla pequeña está unida a la costa por un puente en Donostia?", "options": ["Santa Clara", "Izaro", "Mollarri", "San Nicolás", "San Juan", "Garbi"], "answer": "Santa Clara" },
-      { "question": "¿Qué ciudad vasca tiene una catedral llamada Santa María?", "options": ["Vitoria-Gasteiz", "Bilbao", "Donostia", "Pamplona", "Baiona", "Tolosa"], "answer": "Vitoria-Gasteiz" },
-      { "question": "¿Qué río pasa por Vitoria-Gasteiz?", "options": ["Zadorra", "Nervión", "Oria", "Arga", "Ebro", "Bidasoa"], "answer": "Zadorra" },
-      { "question": "¿Qué montaña es la más alta de Bizkaia?", "options": ["Gorbea", "Oiz", "Anboto", "Aizkorri", "Jaizkibel", "Peñas de Aia"], "answer": "Gorbea" },
-      { "question": "¿Qué ciudad francesa es famosa por sus playas?", "options": ["Biarritz", "Baiona", "Hendaia", "Donibane Lohizune", "Sara", "Urruña"], "answer": "Biarritz" },
-      { "question": "¿Qué río desemboca en la ría de Bilbao?", "options": ["Nervión", "Zadorra", "Oria", "Arga", "Ebro", "Bidasoa"], "answer": "Nervión" },
-      { "question": "¿Qué valle navarro es conocido por sus bosques y magia?", "options": ["Baztan", "Roncal", "Salazar", "Ultzama", "Bardenas", "Larraun"], "answer": "Baztan" },
-      { "question": "¿Qué desierto famoso está en Navarra?", "options": ["Bardenas Reales", "Monegros", "Tabernas", "Gorbea", "Izki", "Aralar"], "answer": "Bardenas Reales" },
-      { "question": "¿Qué río desemboca en Hondarribia?", "options": ["Bidasoa", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Bidasoa" },
-      { "question": "¿Qué montaña está cerca de Baiona?", "options": ["La Rhune", "Aizkorri", "Gorbea", "Anboto", "Oiz", "Txindoki"], "answer": "La Rhune" },
-      { "question": "¿Qué ciudad vasca tiene tres playas famosas?", "options": ["San Sebastián", "Bilbao", "Vitoria-Gasteiz", "Pamplona", "Baiona", "Irun"], "answer": "San Sebastián" },
-      { "question": "¿Qué río pasa por Tolosa?", "options": ["Oria", "Nervión", "Arga", "Zadorra", "Ebro", "Bidasoa"], "answer": "Oria" },
-      { "question": "¿Qué montaña es muy conocida en Navarra para hacer senderismo?", "options": ["San Donato", "Aizkorri", "Gorbea", "Anboto", "Oiz", "Txindoki"], "answer": "San Donato" },
-      { "question": "¿Qué ciudad es famosa por su acueducto romano?", "options": ["Iruña-Veleia", "Bilbao", "Pamplona", "Donostia", "Baiona", "Tolosa"], "answer": "Iruña-Veleia" },
-      { "question": "¿Qué río atraviesa Tudela?", "options": ["Ebro", "Arga", "Nervión", "Oria", "Zadorra", "Bidasoa"], "answer": "Ebro" },
-      { "question": "¿Qué montaña está en la frontera entre Navarra y Francia?", "options": ["Mesa de los Tres Reyes", "Gorbea", "Aizkorri", "Anboto", "Oiz", "Txindoki"], "answer": "Mesa de los Tres Reyes" },
-      { "question": "¿Qué ciudad tiene el puerto más grande de Euskadi?", "options": ["Bilbao", "Donostia", "Irun", "Vitoria-Gasteiz", "Pamplona", "Baiona"], "answer": "Bilbao" },
-      { "question": "¿Qué río pasa por Orio?", "options": ["Oria", "Nervión", "Arga", "Zadorra", "Ebro", "Bidasoa"], "answer": "Oria" },
-      { "question": "¿Qué bosque navarro es famoso por sus robles?", "options": ["Robledal de Orgi", "Irati", "Baztan", "Ultzama", "Aralar", "Izki"], "answer": "Robledal de Orgi" },
-      { "question": "¿Qué selva es uno de los bosques más grandes de Europa?", "options": ["Selva de Irati", "Aralar", "Izki", "Gorbea", "Peñas de Aia", "Oma"], "answer": "Selva de Irati" },
-      { "question": "¿Qué río pasa por Baiona?", "options": ["Adur", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Adur" },
-      { "question": "¿Qué montaña es símbolo de Bizkaia?", "options": ["Gorbea", "Oiz", "Anboto", "Aizkorri", "Jaizkibel", "Txindoki"], "answer": "Gorbea" },
-      { "question": "¿Qué ciudad es famosa por su puente colgante?", "options": ["Portugalete", "Bilbao", "Donostia", "Pamplona", "Baiona", "Tolosa"], "answer": "Portugalete" },
-      { "question": "¿Qué río pasa por Estella-Lizarra?", "options": ["Ega", "Arga", "Ebro", "Nervión", "Oria", "Bidasoa"], "answer": "Ega" },
-      { "question": "¿Qué montaña está en Gipuzkoa y es muy puntiaguda?", "options": ["Txindoki", "Aizkorri", "Gorbea", "Anboto", "Oiz", "Jaizkibel"], "answer": "Txindoki" },
-      { "question": "¿Qué ciudad francesa tiene un faro muy famoso?", "options": ["Biarritz", "Baiona", "Hendaia", "Donibane Lohizune", "Sara", "Urruña"], "answer": "Biarritz" },
-      { "question": "¿Qué río pasa por Gernika?", "options": ["Oka", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Oka" },
-      { "question": "¿Qué parque natural está entre Gipuzkoa y Navarra?", "options": ["Aralar", "Izki", "Gorbea", "Peñas de Aia", "Irati", "Oma"], "answer": "Aralar" },
-      { "question": "¿Qué río pasa por Irun?", "options": ["Bidasoa", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Bidasoa" },
-      { "question": "¿Qué ciudad es conocida por su mural del árbol de Gernika?", "options": ["Gernika", "Bilbao", "Vitoria-Gasteiz", "Pamplona", "Baiona", "Tolosa"], "answer": "Gernika" },
-      { "question": "¿Qué río atraviesa Durango?", "options": ["Ibaizabal", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Ibaizabal" },
-      { "question": "¿Qué montaña está cerca de Donibane Lohizune?", "options": ["La Rhune", "Aizkorri", "Gorbea", "Anboto", "Oiz", "Txindoki"], "answer": "La Rhune" },
-      { "question": "¿Qué río pasa por Ondarroa?", "options": ["Artibai", "Nervión", "Oria", "Arga", "Zadorra", "Ebro"], "answer": "Artibai" },
-      { "question": "¿Qué ciudad navarra es famosa por su catedral?", "options": ["Pamplona", "Tudela", "Estella", "Baztan", "Alsasua", "Barañáin"], "answer": "Pamplona" },
-      { "question": "¿Cuál es la montaña más alta de Argentina?", "options": ["Aconcagua", "Fitz Roy", "Lanín", "Tronador", "Chaltén", "Uritorco"], "answer": "Aconcagua", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "¿Cuál es el río más largo de Argentina?", "options": ["Río Paraná", "Río Uruguay", "Río Colorado", "Río Negro", "Río Salado", "Río Pilcomayo"], "answer": "Río Paraná", "tags": ["geografia", "rio", "argentina"] },
-      { "question": "¿Cuál es la capital de Argentina?", "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata", "Salta"], "answer": "Buenos Aires", "tags": ["geografia", "capital", "argentina"] },
-      { "question": "¿Qué animal aparece en el escudo de Argentina?", "options": ["Cóndor", "Caballo", "León", "Perro", "Gato", "Zorro"], "answer": "Cóndor", "tags": ["simbolos", "argentina"] },
-      { "question": "¿Qué océano está al este de Argentina?", "options": ["Atlántico", "Pacífico", "Índico", "Ártico", "Antártico", "Caribe"], "answer": "Atlántico", "tags": ["geografia", "oceano", "argentina"] },
-      { "question": "¿Qué comida típica es famosa en Argentina?", "options": ["Empanadas", "Paella", "Pizza", "Tacos", "Arepas", "Sushi"], "answer": "Empanadas", "tags": ["cultura", "comida", "argentina"] },
-      { "question": "¿Qué baile tradicional es muy conocido en Argentina?", "options": ["Tango", "Samba", "Flamenco", "Cueca", "Merengue", "Rock"], "answer": "Tango", "tags": ["cultura", "baile", "argentina"] },
-      { "question": "¿Qué bebida es muy popular en Argentina?", "options": ["Mate", "Café", "Té", "Chocolate", "Limonada", "Refresco"], "answer": "Mate", "tags": ["cultura", "argentina"] },
-      { "question": "¿Qué provincia está más al sur de Argentina?", "options": ["Tierra del Fuego", "Santa Cruz", "Chubut", "Neuquén", "Río Negro", "La Pampa"], "answer": "Tierra del Fuego", "tags": ["geografia", "provincia", "argentina"] },
-      { "question": "¿Qué gran catarata famosa está en Argentina?", "options": ["Iguazú", "Niágara", "Victoria", "Angel", "Yosemite", "Kaieteur"], "answer": "Iguazú", "tags": ["geografia", "catarata", "argentina"] },
-      { "question": "¿Qué color NO está en la bandera de Argentina?", "options": ["Rojo", "Celeste", "Blanco", "Amarillo", "Ninguno", "Verde"], "answer": "Rojo", "tags": ["simbolos", "bandera", "argentina"] },
-      { "question": "¿Qué ave es típica de la Patagonia?", "options": ["Cóndor", "Pingüino", "Flamenco", "Colibrí", "Gaviota", "Águila"], "answer": "Pingüino", "tags": ["animales", "patagonia", "argentina"] },
-      { "question": "¿Qué ciudad argentina es famosa por su vino?", "options": ["Mendoza", "Córdoba", "Rosario", "Salta", "La Plata", "Mar del Plata"], "answer": "Mendoza", "tags": ["cultura", "ciudad", "argentina"] },
-      { "question": "¿Qué deporte es el más popular en Argentina?", "options": ["Fútbol", "Baloncesto", "Tenis", "Rugby", "Natación", "Hockey"], "answer": "Fútbol", "tags": ["deporte", "argentina"] },
-      { "question": "¿Qué gran llanura está en Argentina?", "options": ["La Pampa", "Amazonas", "Meseta Central", "Altiplano", "Sabana", "Pradera"], "answer": "La Pampa", "tags": ["geografia", "llanura", "argentina"] },
-      { "question": "¿Qué cordillera cruza Argentina de norte a sur?", "options": ["Cordillera de los Andes", "Pirineos", "Alpes", "Apeninos", "Montes Urales", "Cáucaso"], "answer": "Cordillera de los Andes", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "¿Qué ciudad está más al norte de Argentina?", "options": ["Salta", "Jujuy", "Formosa", "Resistencia", "Posadas", "San Juan"], "answer": "Jujuy", "tags": ["geografia", "ciudad", "argentina"] },
-      { "question": "¿Qué animal grande vive en la Patagonia?", "options": ["Guanaco", "Elefante", "Tigre", "León", "Caballo", "Oso"], "answer": "Guanaco", "tags": ["animales", "patagonia", "argentina"] },
-      { "question": "¿Qué mar está cerca de la costa argentina?", "options": ["Mar Argentino", "Mar Mediterráneo", "Mar Caribe", "Mar Negro", "Mar del Norte", "Mar Báltico"], "answer": "Mar Argentino", "tags": ["geografia", "mar", "argentina"] },
-      { "question": "¿Qué ciudad argentina tiene el Obelisco?", "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "Salta", "Mar del Plata"], "answer": "Buenos Aires", "tags": ["cultura", "monumento", "argentina"] },
-      { "question": "¿Qué provincia es famosa por sus glaciares?", "options": ["Santa Cruz", "Córdoba", "San Luis", "Misiones", "Entre Ríos", "Catamarca"], "answer": "Santa Cruz", "tags": ["geografia", "glaciares", "argentina"] },
-      { "question": "¿Qué glaciar es muy famoso en Argentina?", "options": ["Perito Moreno", "Upsala", "Viedma", "Grey", "Spegazzini", "Dickson"], "answer": "Perito Moreno", "tags": ["geografia", "glaciar", "argentina"] },
-      { "question": "¿Qué provincia tiene las Cataratas del Iguazú?", "options": ["Misiones", "Corrientes", "Formosa", "Chaco", "Salta", "Jujuy"], "answer": "Misiones", "tags": ["geografia", "provincia", "argentina"] },
-      { "question": "¿Qué animal es típico de las Pampas?", "options": ["Ñandú", "Elefante", "Cebra", "León", "Puma", "Cabra"], "answer": "Ñandú", "tags": ["animales", "pampa", "argentina"] },
-      { "question": "¿Qué ciudad argentina está junto al río Paraná?", "options": ["Rosario", "Córdoba", "Mendoza", "Salta", "San Juan", "Neuquén"], "answer": "Rosario", "tags": ["geografia", "ciudad", "argentina"] },
-      { "question": "¿Qué provincia es conocida por el Cerro de los Siete Colores?", "options": ["Jujuy", "Salta", "Catamarca", "La Rioja", "San Juan", "Tucumán"], "answer": "Jujuy", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "¿Qué animal marino se ve en la costa patagónica?", "options": ["Lobo marino", "Tiburón blanco", "Ballena azul", "Delfín rosado", "Foca ártica", "Morsa"], "answer": "Lobo marino", "tags": ["animales", "mar", "argentina"] },
-      { "question": "¿Qué ciudad argentina es famosa por sus playas?", "options": ["Mar del Plata", "Córdoba", "Rosario", "Mendoza", "Salta", "San Juan"], "answer": "Mar del Plata", "tags": ["geografia", "playa", "argentina"] },
-      { "question": "¿Qué provincia está en el centro de Argentina?", "options": ["Córdoba", "Misiones", "Santa Cruz", "Tierra del Fuego", "Salta", "Jujuy"], "answer": "Córdoba", "tags": ["geografia", "provincia", "argentina"] },
-      { "question": "¿Qué animal grande vive en el norte de Argentina?", "options": ["Yacaré", "Elefante", "Hipopótamo", "Cebra", "Oso", "León"], "answer": "Yacaré", "tags": ["animales", "argentina"] },
-      { "question": "¿Qué provincia es famosa por sus montañas y nieve?", "options": ["Neuquén", "Misiones", "Formosa", "Chaco", "Corrientes", "Santa Fe"], "answer": "Neuquén", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "¿Qué ciudad argentina tiene el Teatro Colón?", "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "Salta", "San Juan"], "answer": "Buenos Aires", "tags": ["cultura", "teatro", "argentina"] },
-      { "question": "¿Qué animal vive en la selva misionera?", "options": ["Jaguar", "León", "Tigre de bengala", "Oso panda", "Cebra", "Camello"], "answer": "Jaguar", "tags": ["animales", "selva", "argentina"] },
-      { "question": "¿Qué provincia tiene el Valle de la Luna?", "options": ["San Juan", "Córdoba", "Misiones", "Santa Fe", "Chaco", "Formosa"], "answer": "San Juan", "tags": ["geografia", "argentina"] },
-      { "question": "¿Qué ciudad argentina es famosa por su carnaval?", "options": ["Gualeguaychú", "Córdoba", "Rosario", "Mendoza", "Salta", "San Juan"], "answer": "Gualeguaychú", "tags": ["cultura", "fiesta", "argentina"] },
-      { "question": "¿Qué animal marino gigante visita la Patagonia?", "options": ["Ballena franca", "Tiburón martillo", "Orca", "Delfín rosado", "Morsa", "Foca"], "answer": "Ballena franca", "tags": ["animales", "patagonia", "argentina"] },
-      { "question": "¿Qué provincia es famosa por sus viñedos?", "options": ["Mendoza", "Córdoba", "Misiones", "Santa Fe", "Chaco", "Formosa"], "answer": "Mendoza", "tags": ["cultura", "vino", "argentina"] },
-      { "question": "¿Qué ciudad argentina tiene el Monumento a la Bandera?", "options": ["Rosario", "Buenos Aires", "Córdoba", "Mendoza", "Salta", "San Juan"], "answer": "Rosario", "tags": ["simbolos", "argentina"] },
-      { "question": "¿Qué animal vive en la cordillera de los Andes?", "options": ["Vicuña", "Elefante", "Cebra", "León", "Oso", "Caballo"], "answer": "Vicuña", "tags": ["animales", "montaña", "argentina"] },
-      { "question": "¿Qué provincia está más al oeste de Argentina?", "options": ["San Juan", "Mendoza", "La Rioja", "Catamarca", "San Luis", "Córdoba"], "answer": "Mendoza", "tags": ["geografia", "provincia", "argentina"] },
-      { "question": "¿Qué ciudad argentina es famosa por su cerro San Bernardo?", "options": ["Salta", "Córdoba", "Rosario", "Mendoza", "San Juan", "Neuquén"], "answer": "Salta", "tags": ["geografia", "ciudad", "argentina"] },
-      { "question": "¿Qué animal es típico de la región chaqueña?", "options": ["Tatú carreta", "Elefante", "Cebra", "León", "Oso", "Caballo"], "answer": "Tatú carreta", "tags": ["animales", "argentina"] },
-      { "question": "¿Qué provincia tiene el Parque Nacional Talampaya?", "options": ["La Rioja", "San Juan", "Córdoba", "Misiones", "Santa Fe", "Chaco"], "answer": "La Rioja", "tags": ["geografia", "argentina"] },
-      { "question": "¿Qué ciudad argentina es famosa por su cerro Catedral?", "options": ["Bariloche", "Córdoba", "Rosario", "Mendoza", "Salta", "San Juan"], "answer": "Bariloche", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "¿Qué animal vive en los humedales del Litoral?", "options": ["Carpincho", "Elefante", "Cebra", "León", "Oso", "Caballo"], "answer": "Carpincho", "tags": ["animales", "argentina"] },
-      { "question": "¿Qué provincia es famosa por sus montañas de colores?", "options": ["Salta", "Jujuy", "Catamarca", "La Rioja", "San Juan", "Tucumán"], "answer": "Salta", "tags": ["geografia", "argentina"] },
-      { "question": "¿Qué ciudad argentina tiene el cerro de la Gloria?", "options": ["Mendoza", "Córdoba", "Rosario", "Salta", "San Juan", "Neuquén"], "answer": "Mendoza", "tags": ["cultura", "argentina"] },
-      { "question": "¿Qué animal vive en la región patagónica y corre muy rápido?", "options": ["Choique", "Elefante", "Cebra", "León", "Oso", "Caballo"], "answer": "Choique", "tags": ["animales", "patagonia", "argentina"] }
+    "comun": [
+      {
+        "question": "¿Cuál es la montaña más alta de Euskadi?",
+        "options": [
+          "Gorbea",
+          "Anboto",
+          "Aizkorri",
+          "Txindoki",
+          "Jaizkibel",
+          "Oiz"
+        ],
+        "answer": "Aizkorri",
+        "tags": [
+          "geografia",
+          "montaña"
+        ]
+      },
+      {
+        "question": "¿Qué río pasa por Bilbao?",
+        "options": [
+          "Nervión",
+          "Ebro",
+          "Oria",
+          "Bidasoa",
+          "Zadorra",
+          "Arga"
+        ],
+        "answer": "Nervión",
+        "tags": [
+          "geografia",
+          "rio"
+        ]
+      },
+      {
+        "question": "¿Cuál es la capital de Navarra?",
+        "options": [
+          "Pamplona",
+          "Tudela",
+          "Estella",
+          "Baztan",
+          "Barañáin",
+          "Alsasua"
+        ],
+        "answer": "Pamplona",
+        "tags": [
+          "geografia",
+          "capital"
+        ]
+      },
+      {
+        "question": "¿Qué mar baña la costa vasca?",
+        "options": [
+          "Mar Cantábrico",
+          "Mar Mediterráneo",
+          "Océano Atlántico",
+          "Mar del Norte",
+          "Mar Báltico",
+          "Mar Negro"
+        ],
+        "answer": "Mar Cantábrico",
+        "tags": [
+          "geografia",
+          "mar"
+        ]
+      },
+      {
+        "question": "¿Cuál es el animal típico del País Vasco que aparece en muchos caseríos?",
+        "options": [
+          "Oveja latxa",
+          "Cabra pirenaica",
+          "Vaca frisona",
+          "Caballo árabe",
+          "Cerdo ibérico",
+          "Burro catalán"
+        ],
+        "answer": "Oveja latxa",
+        "tags": [
+          "fauna",
+          "euskadi"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad es famosa por su festival de cine?",
+        "options": [
+          "San Sebastián",
+          "Bilbao",
+          "Vitoria-Gasteiz",
+          "Pamplona",
+          "Baiona",
+          "Irun"
+        ],
+        "answer": "San Sebastián",
+        "tags": [
+          "cultura",
+          "cine"
+        ]
+      },
+      {
+        "question": "¿Qué río forma frontera entre España y Francia en el País Vasco?",
+        "options": [
+          "Bidasoa",
+          "Nervión",
+          "Oria",
+          "Ebro",
+          "Zadorra",
+          "Arga"
+        ],
+        "answer": "Bidasoa"
+      },
+      {
+        "question": "¿Cuál es el deporte rural vasco donde se levantan piedras?",
+        "options": [
+          "Harrijasotzea",
+          "Sokatira",
+          "Aizkolaritza",
+          "Pelota",
+          "Remonte",
+          "Trontza"
+        ],
+        "answer": "Harrijasotzea"
+      },
+      {
+        "question": "¿Qué ciudad vasca tiene un museo muy famoso llamado Guggenheim?",
+        "options": [
+          "Bilbao",
+          "Vitoria-Gasteiz",
+          "Donostia",
+          "Pamplona",
+          "Baiona",
+          "Tolosa"
+        ],
+        "answer": "Bilbao"
+      },
+      {
+        "question": "¿Qué montaña es muy conocida por la leyenda de Mari?",
+        "options": [
+          "Anboto",
+          "Gorbea",
+          "Aizkorri",
+          "Oiz",
+          "Txindoki",
+          "Peñas de Aia"
+        ],
+        "answer": "Anboto"
+      },
+      {
+        "question": "¿Cuál es la capital de Iparralde (País Vasco francés)?",
+        "options": [
+          "Baiona",
+          "Biarritz",
+          "Donibane Lohizune",
+          "Hendaia",
+          "Urruña",
+          "Sara"
+        ],
+        "answer": "Baiona"
+      },
+      {
+        "question": "¿Qué río atraviesa Pamplona?",
+        "options": [
+          "Arga",
+          "Ebro",
+          "Nervión",
+          "Oria",
+          "Bidasoa",
+          "Zadorra"
+        ],
+        "answer": "Arga"
+      },
+      {
+        "question": "¿Qué montaña es símbolo de Gipuzkoa?",
+        "options": [
+          "Txindoki",
+          "Aizkorri",
+          "Gorbea",
+          "Anboto",
+          "Oiz",
+          "Jaizkibel"
+        ],
+        "answer": "Txindoki"
+      },
+      {
+        "question": "¿Qué ciudad es conocida por los Sanfermines?",
+        "options": [
+          "Pamplona",
+          "Bilbao",
+          "Vitoria-Gasteiz",
+          "Donostia",
+          "Irun",
+          "Baiona"
+        ],
+        "answer": "Pamplona"
+      },
+      {
+        "question": "¿Cuál es el río más largo de Álava?",
+        "options": [
+          "Zadorra",
+          "Nervión",
+          "Ebro",
+          "Arga",
+          "Oria",
+          "Bidasoa"
+        ],
+        "answer": "Zadorra"
+      },
+      {
+        "question": "¿Qué isla pequeña está unida a la costa por un puente en Donostia?",
+        "options": [
+          "Santa Clara",
+          "Izaro",
+          "Mollarri",
+          "San Nicolás",
+          "San Juan",
+          "Garbi"
+        ],
+        "answer": "Santa Clara"
+      },
+      {
+        "question": "¿Qué ciudad vasca tiene una catedral llamada Santa María?",
+        "options": [
+          "Vitoria-Gasteiz",
+          "Bilbao",
+          "Donostia",
+          "Pamplona",
+          "Baiona",
+          "Tolosa"
+        ],
+        "answer": "Vitoria-Gasteiz"
+      },
+      {
+        "question": "¿Qué río pasa por Vitoria-Gasteiz?",
+        "options": [
+          "Zadorra",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Ebro",
+          "Bidasoa"
+        ],
+        "answer": "Zadorra"
+      },
+      {
+        "question": "¿Qué montaña es la más alta de Bizkaia?",
+        "options": [
+          "Gorbea",
+          "Oiz",
+          "Anboto",
+          "Aizkorri",
+          "Jaizkibel",
+          "Peñas de Aia"
+        ],
+        "answer": "Gorbea"
+      },
+      {
+        "question": "¿Qué ciudad francesa es famosa por sus playas?",
+        "options": [
+          "Biarritz",
+          "Baiona",
+          "Hendaia",
+          "Donibane Lohizune",
+          "Sara",
+          "Urruña"
+        ],
+        "answer": "Biarritz"
+      },
+      {
+        "question": "¿Qué río desemboca en la ría de Bilbao?",
+        "options": [
+          "Nervión",
+          "Zadorra",
+          "Oria",
+          "Arga",
+          "Ebro",
+          "Bidasoa"
+        ],
+        "answer": "Nervión"
+      },
+      {
+        "question": "¿Qué valle navarro es conocido por sus bosques y magia?",
+        "options": [
+          "Baztan",
+          "Roncal",
+          "Salazar",
+          "Ultzama",
+          "Bardenas",
+          "Larraun"
+        ],
+        "answer": "Baztan"
+      },
+      {
+        "question": "¿Qué desierto famoso está en Navarra?",
+        "options": [
+          "Bardenas Reales",
+          "Monegros",
+          "Tabernas",
+          "Gorbea",
+          "Izki",
+          "Aralar"
+        ],
+        "answer": "Bardenas Reales"
+      },
+      {
+        "question": "¿Qué río desemboca en Hondarribia?",
+        "options": [
+          "Bidasoa",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Bidasoa"
+      },
+      {
+        "question": "¿Qué montaña está cerca de Baiona?",
+        "options": [
+          "La Rhune",
+          "Aizkorri",
+          "Gorbea",
+          "Anboto",
+          "Oiz",
+          "Txindoki"
+        ],
+        "answer": "La Rhune"
+      },
+      {
+        "question": "¿Qué ciudad vasca tiene tres playas famosas?",
+        "options": [
+          "San Sebastián",
+          "Bilbao",
+          "Vitoria-Gasteiz",
+          "Pamplona",
+          "Baiona",
+          "Irun"
+        ],
+        "answer": "San Sebastián"
+      },
+      {
+        "question": "¿Qué río pasa por Tolosa?",
+        "options": [
+          "Oria",
+          "Nervión",
+          "Arga",
+          "Zadorra",
+          "Ebro",
+          "Bidasoa"
+        ],
+        "answer": "Oria"
+      },
+      {
+        "question": "¿Qué montaña es muy conocida en Navarra para hacer senderismo?",
+        "options": [
+          "San Donato",
+          "Aizkorri",
+          "Gorbea",
+          "Anboto",
+          "Oiz",
+          "Txindoki"
+        ],
+        "answer": "San Donato"
+      },
+      {
+        "question": "¿Qué ciudad es famosa por su acueducto romano?",
+        "options": [
+          "Iruña-Veleia",
+          "Bilbao",
+          "Pamplona",
+          "Donostia",
+          "Baiona",
+          "Tolosa"
+        ],
+        "answer": "Iruña-Veleia"
+      },
+      {
+        "question": "¿Qué río atraviesa Tudela?",
+        "options": [
+          "Ebro",
+          "Arga",
+          "Nervión",
+          "Oria",
+          "Zadorra",
+          "Bidasoa"
+        ],
+        "answer": "Ebro"
+      },
+      {
+        "question": "¿Qué montaña está en la frontera entre Navarra y Francia?",
+        "options": [
+          "Mesa de los Tres Reyes",
+          "Gorbea",
+          "Aizkorri",
+          "Anboto",
+          "Oiz",
+          "Txindoki"
+        ],
+        "answer": "Mesa de los Tres Reyes"
+      },
+      {
+        "question": "¿Qué ciudad tiene el puerto más grande de Euskadi?",
+        "options": [
+          "Bilbao",
+          "Donostia",
+          "Irun",
+          "Vitoria-Gasteiz",
+          "Pamplona",
+          "Baiona"
+        ],
+        "answer": "Bilbao"
+      },
+      {
+        "question": "¿Qué río pasa por Orio?",
+        "options": [
+          "Oria",
+          "Nervión",
+          "Arga",
+          "Zadorra",
+          "Ebro",
+          "Bidasoa"
+        ],
+        "answer": "Oria"
+      },
+      {
+        "question": "¿Qué bosque navarro es famoso por sus robles?",
+        "options": [
+          "Robledal de Orgi",
+          "Irati",
+          "Baztan",
+          "Ultzama",
+          "Aralar",
+          "Izki"
+        ],
+        "answer": "Robledal de Orgi"
+      },
+      {
+        "question": "¿Qué selva es uno de los bosques más grandes de Europa?",
+        "options": [
+          "Selva de Irati",
+          "Aralar",
+          "Izki",
+          "Gorbea",
+          "Peñas de Aia",
+          "Oma"
+        ],
+        "answer": "Selva de Irati"
+      },
+      {
+        "question": "¿Qué río pasa por Baiona?",
+        "options": [
+          "Adur",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Adur"
+      },
+      {
+        "question": "¿Qué montaña es símbolo de Bizkaia?",
+        "options": [
+          "Gorbea",
+          "Oiz",
+          "Anboto",
+          "Aizkorri",
+          "Jaizkibel",
+          "Txindoki"
+        ],
+        "answer": "Gorbea"
+      },
+      {
+        "question": "¿Qué ciudad es famosa por su puente colgante?",
+        "options": [
+          "Portugalete",
+          "Bilbao",
+          "Donostia",
+          "Pamplona",
+          "Baiona",
+          "Tolosa"
+        ],
+        "answer": "Portugalete"
+      },
+      {
+        "question": "¿Qué río pasa por Estella-Lizarra?",
+        "options": [
+          "Ega",
+          "Arga",
+          "Ebro",
+          "Nervión",
+          "Oria",
+          "Bidasoa"
+        ],
+        "answer": "Ega"
+      },
+      {
+        "question": "¿Qué montaña está en Gipuzkoa y es muy puntiaguda?",
+        "options": [
+          "Txindoki",
+          "Aizkorri",
+          "Gorbea",
+          "Anboto",
+          "Oiz",
+          "Jaizkibel"
+        ],
+        "answer": "Txindoki"
+      },
+      {
+        "question": "¿Qué ciudad francesa tiene un faro muy famoso?",
+        "options": [
+          "Biarritz",
+          "Baiona",
+          "Hendaia",
+          "Donibane Lohizune",
+          "Sara",
+          "Urruña"
+        ],
+        "answer": "Biarritz"
+      },
+      {
+        "question": "¿Qué río pasa por Gernika?",
+        "options": [
+          "Oka",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Oka"
+      },
+      {
+        "question": "¿Qué parque natural está entre Gipuzkoa y Navarra?",
+        "options": [
+          "Aralar",
+          "Izki",
+          "Gorbea",
+          "Peñas de Aia",
+          "Irati",
+          "Oma"
+        ],
+        "answer": "Aralar"
+      },
+      {
+        "question": "¿Qué río pasa por Irun?",
+        "options": [
+          "Bidasoa",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Bidasoa"
+      },
+      {
+        "question": "¿Qué ciudad es conocida por su mural del árbol de Gernika?",
+        "options": [
+          "Gernika",
+          "Bilbao",
+          "Vitoria-Gasteiz",
+          "Pamplona",
+          "Baiona",
+          "Tolosa"
+        ],
+        "answer": "Gernika"
+      },
+      {
+        "question": "¿Qué río atraviesa Durango?",
+        "options": [
+          "Ibaizabal",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Ibaizabal"
+      },
+      {
+        "question": "¿Qué montaña está cerca de Donibane Lohizune?",
+        "options": [
+          "La Rhune",
+          "Aizkorri",
+          "Gorbea",
+          "Anboto",
+          "Oiz",
+          "Txindoki"
+        ],
+        "answer": "La Rhune"
+      },
+      {
+        "question": "¿Qué río pasa por Ondarroa?",
+        "options": [
+          "Artibai",
+          "Nervión",
+          "Oria",
+          "Arga",
+          "Zadorra",
+          "Ebro"
+        ],
+        "answer": "Artibai"
+      },
+      {
+        "question": "¿Qué ciudad navarra es famosa por su catedral?",
+        "options": [
+          "Pamplona",
+          "Tudela",
+          "Estella",
+          "Baztan",
+          "Alsasua",
+          "Barañáin"
+        ],
+        "answer": "Pamplona"
+      },
+      {
+        "question": "¿Cuál es la montaña más alta de Argentina?",
+        "options": [
+          "Aconcagua",
+          "Fitz Roy",
+          "Lanín",
+          "Tronador",
+          "Chaltén",
+          "Uritorco"
+        ],
+        "answer": "Aconcagua",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Cuál es el río más largo de Argentina?",
+        "options": [
+          "Río Paraná",
+          "Río Uruguay",
+          "Río Colorado",
+          "Río Negro",
+          "Río Salado",
+          "Río Pilcomayo"
+        ],
+        "answer": "Río Paraná",
+        "tags": [
+          "geografia",
+          "rio",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Cuál es la capital de Argentina?",
+        "options": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "La Plata",
+          "Salta"
+        ],
+        "answer": "Buenos Aires",
+        "tags": [
+          "geografia",
+          "capital",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal aparece en el escudo de Argentina?",
+        "options": [
+          "Cóndor",
+          "Caballo",
+          "León",
+          "Perro",
+          "Gato",
+          "Zorro"
+        ],
+        "answer": "Cóndor",
+        "tags": [
+          "simbolos",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué océano está al este de Argentina?",
+        "options": [
+          "Atlántico",
+          "Pacífico",
+          "Índico",
+          "Ártico",
+          "Antártico",
+          "Caribe"
+        ],
+        "answer": "Atlántico",
+        "tags": [
+          "geografia",
+          "oceano",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué comida típica es famosa en Argentina?",
+        "options": [
+          "Empanadas",
+          "Paella",
+          "Pizza",
+          "Tacos",
+          "Arepas",
+          "Sushi"
+        ],
+        "answer": "Empanadas",
+        "tags": [
+          "cultura",
+          "comida",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué baile tradicional es muy conocido en Argentina?",
+        "options": [
+          "Tango",
+          "Samba",
+          "Flamenco",
+          "Cueca",
+          "Merengue",
+          "Rock"
+        ],
+        "answer": "Tango",
+        "tags": [
+          "cultura",
+          "baile",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué bebida es muy popular en Argentina?",
+        "options": [
+          "Mate",
+          "Café",
+          "Té",
+          "Chocolate",
+          "Limonada",
+          "Refresco"
+        ],
+        "answer": "Mate",
+        "tags": [
+          "cultura",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia está más al sur de Argentina?",
+        "options": [
+          "Tierra del Fuego",
+          "Santa Cruz",
+          "Chubut",
+          "Neuquén",
+          "Río Negro",
+          "La Pampa"
+        ],
+        "answer": "Tierra del Fuego",
+        "tags": [
+          "geografia",
+          "provincia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué gran catarata famosa está en Argentina?",
+        "options": [
+          "Iguazú",
+          "Niágara",
+          "Victoria",
+          "Angel",
+          "Yosemite",
+          "Kaieteur"
+        ],
+        "answer": "Iguazú",
+        "tags": [
+          "geografia",
+          "catarata",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué color NO está en la bandera de Argentina?",
+        "options": [
+          "Rojo",
+          "Celeste",
+          "Blanco",
+          "Amarillo",
+          "Ninguno",
+          "Verde"
+        ],
+        "answer": "Rojo",
+        "tags": [
+          "simbolos",
+          "bandera",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ave es típica de la Patagonia?",
+        "options": [
+          "Cóndor",
+          "Pingüino",
+          "Flamenco",
+          "Colibrí",
+          "Gaviota",
+          "Águila"
+        ],
+        "answer": "Pingüino",
+        "tags": [
+          "animales",
+          "patagonia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina es famosa por su vino?",
+        "options": [
+          "Mendoza",
+          "Córdoba",
+          "Rosario",
+          "Salta",
+          "La Plata",
+          "Mar del Plata"
+        ],
+        "answer": "Mendoza",
+        "tags": [
+          "cultura",
+          "ciudad",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué deporte es el más popular en Argentina?",
+        "options": [
+          "Fútbol",
+          "Baloncesto",
+          "Tenis",
+          "Rugby",
+          "Natación",
+          "Hockey"
+        ],
+        "answer": "Fútbol",
+        "tags": [
+          "deporte",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué gran llanura está en Argentina?",
+        "options": [
+          "La Pampa",
+          "Amazonas",
+          "Meseta Central",
+          "Altiplano",
+          "Sabana",
+          "Pradera"
+        ],
+        "answer": "La Pampa",
+        "tags": [
+          "geografia",
+          "llanura",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué cordillera cruza Argentina de norte a sur?",
+        "options": [
+          "Cordillera de los Andes",
+          "Pirineos",
+          "Alpes",
+          "Apeninos",
+          "Montes Urales",
+          "Cáucaso"
+        ],
+        "answer": "Cordillera de los Andes",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad está más al norte de Argentina?",
+        "options": [
+          "Salta",
+          "Jujuy",
+          "Formosa",
+          "Resistencia",
+          "Posadas",
+          "San Juan"
+        ],
+        "answer": "Jujuy",
+        "tags": [
+          "geografia",
+          "ciudad",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal grande vive en la Patagonia?",
+        "options": [
+          "Guanaco",
+          "Elefante",
+          "Tigre",
+          "León",
+          "Caballo",
+          "Oso"
+        ],
+        "answer": "Guanaco",
+        "tags": [
+          "animales",
+          "patagonia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué mar está cerca de la costa argentina?",
+        "options": [
+          "Mar Argentino",
+          "Mar Mediterráneo",
+          "Mar Caribe",
+          "Mar Negro",
+          "Mar del Norte",
+          "Mar Báltico"
+        ],
+        "answer": "Mar Argentino",
+        "tags": [
+          "geografia",
+          "mar",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina tiene el Obelisco?",
+        "options": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "Salta",
+          "Mar del Plata"
+        ],
+        "answer": "Buenos Aires",
+        "tags": [
+          "cultura",
+          "monumento",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia es famosa por sus glaciares?",
+        "options": [
+          "Santa Cruz",
+          "Córdoba",
+          "San Luis",
+          "Misiones",
+          "Entre Ríos",
+          "Catamarca"
+        ],
+        "answer": "Santa Cruz",
+        "tags": [
+          "geografia",
+          "glaciares",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué glaciar es muy famoso en Argentina?",
+        "options": [
+          "Perito Moreno",
+          "Upsala",
+          "Viedma",
+          "Grey",
+          "Spegazzini",
+          "Dickson"
+        ],
+        "answer": "Perito Moreno",
+        "tags": [
+          "geografia",
+          "glaciar",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia tiene las Cataratas del Iguazú?",
+        "options": [
+          "Misiones",
+          "Corrientes",
+          "Formosa",
+          "Chaco",
+          "Salta",
+          "Jujuy"
+        ],
+        "answer": "Misiones",
+        "tags": [
+          "geografia",
+          "provincia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal es típico de las Pampas?",
+        "options": [
+          "Ñandú",
+          "Elefante",
+          "Cebra",
+          "León",
+          "Puma",
+          "Cabra"
+        ],
+        "answer": "Ñandú",
+        "tags": [
+          "animales",
+          "pampa",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina está junto al río Paraná?",
+        "options": [
+          "Rosario",
+          "Córdoba",
+          "Mendoza",
+          "Salta",
+          "San Juan",
+          "Neuquén"
+        ],
+        "answer": "Rosario",
+        "tags": [
+          "geografia",
+          "ciudad",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia es conocida por el Cerro de los Siete Colores?",
+        "options": [
+          "Jujuy",
+          "Salta",
+          "Catamarca",
+          "La Rioja",
+          "San Juan",
+          "Tucumán"
+        ],
+        "answer": "Jujuy",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal marino se ve en la costa patagónica?",
+        "options": [
+          "Lobo marino",
+          "Tiburón blanco",
+          "Ballena azul",
+          "Delfín rosado",
+          "Foca ártica",
+          "Morsa"
+        ],
+        "answer": "Lobo marino",
+        "tags": [
+          "animales",
+          "mar",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina es famosa por sus playas?",
+        "options": [
+          "Mar del Plata",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "Salta",
+          "San Juan"
+        ],
+        "answer": "Mar del Plata",
+        "tags": [
+          "geografia",
+          "playa",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia está en el centro de Argentina?",
+        "options": [
+          "Córdoba",
+          "Misiones",
+          "Santa Cruz",
+          "Tierra del Fuego",
+          "Salta",
+          "Jujuy"
+        ],
+        "answer": "Córdoba",
+        "tags": [
+          "geografia",
+          "provincia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal grande vive en el norte de Argentina?",
+        "options": [
+          "Yacaré",
+          "Elefante",
+          "Hipopótamo",
+          "Cebra",
+          "Oso",
+          "León"
+        ],
+        "answer": "Yacaré",
+        "tags": [
+          "animales",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia es famosa por sus montañas y nieve?",
+        "options": [
+          "Neuquén",
+          "Misiones",
+          "Formosa",
+          "Chaco",
+          "Corrientes",
+          "Santa Fe"
+        ],
+        "answer": "Neuquén",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina tiene el Teatro Colón?",
+        "options": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "Salta",
+          "San Juan"
+        ],
+        "answer": "Buenos Aires",
+        "tags": [
+          "cultura",
+          "teatro",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal vive en la selva misionera?",
+        "options": [
+          "Jaguar",
+          "León",
+          "Tigre de bengala",
+          "Oso panda",
+          "Cebra",
+          "Camello"
+        ],
+        "answer": "Jaguar",
+        "tags": [
+          "animales",
+          "selva",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia tiene el Valle de la Luna?",
+        "options": [
+          "San Juan",
+          "Córdoba",
+          "Misiones",
+          "Santa Fe",
+          "Chaco",
+          "Formosa"
+        ],
+        "answer": "San Juan",
+        "tags": [
+          "geografia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina es famosa por su carnaval?",
+        "options": [
+          "Gualeguaychú",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "Salta",
+          "San Juan"
+        ],
+        "answer": "Gualeguaychú",
+        "tags": [
+          "cultura",
+          "fiesta",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal marino gigante visita la Patagonia?",
+        "options": [
+          "Ballena franca",
+          "Tiburón martillo",
+          "Orca",
+          "Delfín rosado",
+          "Morsa",
+          "Foca"
+        ],
+        "answer": "Ballena franca",
+        "tags": [
+          "animales",
+          "patagonia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia es famosa por sus viñedos?",
+        "options": [
+          "Mendoza",
+          "Córdoba",
+          "Misiones",
+          "Santa Fe",
+          "Chaco",
+          "Formosa"
+        ],
+        "answer": "Mendoza",
+        "tags": [
+          "cultura",
+          "vino",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina tiene el Monumento a la Bandera?",
+        "options": [
+          "Rosario",
+          "Buenos Aires",
+          "Córdoba",
+          "Mendoza",
+          "Salta",
+          "San Juan"
+        ],
+        "answer": "Rosario",
+        "tags": [
+          "simbolos",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal vive en la cordillera de los Andes?",
+        "options": [
+          "Vicuña",
+          "Elefante",
+          "Cebra",
+          "León",
+          "Oso",
+          "Caballo"
+        ],
+        "answer": "Vicuña",
+        "tags": [
+          "animales",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia está más al oeste de Argentina?",
+        "options": [
+          "San Juan",
+          "Mendoza",
+          "La Rioja",
+          "Catamarca",
+          "San Luis",
+          "Córdoba"
+        ],
+        "answer": "Mendoza",
+        "tags": [
+          "geografia",
+          "provincia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina es famosa por su cerro San Bernardo?",
+        "options": [
+          "Salta",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "San Juan",
+          "Neuquén"
+        ],
+        "answer": "Salta",
+        "tags": [
+          "geografia",
+          "ciudad",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal es típico de la región chaqueña?",
+        "options": [
+          "Tatú carreta",
+          "Elefante",
+          "Cebra",
+          "León",
+          "Oso",
+          "Caballo"
+        ],
+        "answer": "Tatú carreta",
+        "tags": [
+          "animales",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia tiene el Parque Nacional Talampaya?",
+        "options": [
+          "La Rioja",
+          "San Juan",
+          "Córdoba",
+          "Misiones",
+          "Santa Fe",
+          "Chaco"
+        ],
+        "answer": "La Rioja",
+        "tags": [
+          "geografia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina es famosa por su cerro Catedral?",
+        "options": [
+          "Bariloche",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "Salta",
+          "San Juan"
+        ],
+        "answer": "Bariloche",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal vive en los humedales del Litoral?",
+        "options": [
+          "Carpincho",
+          "Elefante",
+          "Cebra",
+          "León",
+          "Oso",
+          "Caballo"
+        ],
+        "answer": "Carpincho",
+        "tags": [
+          "animales",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué provincia es famosa por sus montañas de colores?",
+        "options": [
+          "Salta",
+          "Jujuy",
+          "Catamarca",
+          "La Rioja",
+          "San Juan",
+          "Tucumán"
+        ],
+        "answer": "Salta",
+        "tags": [
+          "geografia",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué ciudad argentina tiene el cerro de la Gloria?",
+        "options": [
+          "Mendoza",
+          "Córdoba",
+          "Rosario",
+          "Salta",
+          "San Juan",
+          "Neuquén"
+        ],
+        "answer": "Mendoza",
+        "tags": [
+          "cultura",
+          "argentina"
+        ]
+      },
+      {
+        "question": "¿Qué animal vive en la región patagónica y corre muy rápido?",
+        "options": [
+          "Choique",
+          "Elefante",
+          "Cebra",
+          "León",
+          "Oso",
+          "Caballo"
+        ],
+        "answer": "Choique",
+        "tags": [
+          "animales",
+          "patagonia",
+          "argentina"
+        ]
+      }
     ]
-
   },
   "eu": {
     "comun": [
-      { "question": "Zein da munduko herrialderik handiena?", "options": ["Errusia", "Txina", "Kanada", "Brasil", "India", "Espainia"], "answer": "Errusia" },
-      { "question": "Zeintzuk dira Espainiako probintziak?", "options": ["Madril", "Paris", "Sevilla", "Londres", "Valentzia", "Erroma"], "answer": ["Madril", "Sevilla", "Valentzia"], "tags": ["geografia", "probintziak"] },
-      { "question": "Zeintzuk dira Bizkaiko herriak?", "options": ["Bilbo", "Barakaldo", "Gasteiz", "Burgos", "Gernika", "Eibar"], "answer": ["Bilbo", "Barakaldo", "Gernika"], "tags": ["geografia", "herriak"] },
-      { "question": "Zein da Argentinako mendirik altuena?", "options": ["Aconcagua", "Fitz Roy", "Lanín", "Tronador", "Chaltén", "Uritorco"], "answer": "Aconcagua", "tags": ["geografia", "montaña", "argentina"] },
-      { "question": "Zein da Argentinako hiriburua?", "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza", "La Plata", "Salta"], "answer": "Buenos Aires", "tags": ["geografia", "capital", "argentina"] }
+      {
+        "question": "Zein da munduko herrialderik handiena?",
+        "options": [
+          "Errusia",
+          "Txina",
+          "Kanada",
+          "Brasil",
+          "India",
+          "Espainia"
+        ],
+        "answer": "Errusia"
+      },
+      {
+        "question": "Zeintzuk dira Espainiako probintziak?",
+        "options": [
+          "Madril",
+          "Paris",
+          "Sevilla",
+          "Londres",
+          "Valentzia",
+          "Erroma"
+        ],
+        "answer": [
+          "Madril",
+          "Sevilla",
+          "Valentzia"
+        ],
+        "tags": [
+          "geografia",
+          "probintziak"
+        ]
+      },
+      {
+        "question": "Zeintzuk dira Bizkaiko herriak?",
+        "options": [
+          "Bilbo",
+          "Barakaldo",
+          "Gasteiz",
+          "Burgos",
+          "Gernika",
+          "Eibar"
+        ],
+        "answer": [
+          "Bilbo",
+          "Barakaldo",
+          "Gernika"
+        ],
+        "tags": [
+          "geografia",
+          "herriak"
+        ]
+      },
+      {
+        "question": "Zein da Argentinako mendirik altuena?",
+        "options": [
+          "Aconcagua",
+          "Fitz Roy",
+          "Lanín",
+          "Tronador",
+          "Chaltén",
+          "Uritorco"
+        ],
+        "answer": "Aconcagua",
+        "tags": [
+          "geografia",
+          "montaña",
+          "argentina"
+        ]
+      },
+      {
+        "question": "Zein da Argentinako hiriburua?",
+        "options": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "La Plata",
+          "Salta"
+        ],
+        "answer": "Buenos Aires",
+        "tags": [
+          "geografia",
+          "capital",
+          "argentina"
+        ]
+      }
     ]
   }
 }
