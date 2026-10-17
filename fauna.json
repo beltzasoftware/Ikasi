@@ -1904,8 +1904,8 @@
 
     "eu": {
     "comun": [
-{ "question": "Zein animalia da oihaneko erregea bezala ezaguna?", "options": ["Lehoia", "Tigrea", "Elefantea", "Zebra", "Jirafa", "Gorila"], "answer": "Lehoia", "tags": ["ugaztuna"] },
-{ "question": "Zein da munduko animalia altuena?", "options": ["Elefantea", "Jirafa", "Ostruka", "Hartza", "Zaldia", "Hipopotamoa"], "answer": "Jirafa", "tags": ["ugaztuna"] },
+{ "question": "Zein animalia da oihaneko erregea bezala ezaguna?", "options": ["Lehoia", "Tigrea", "Elefantea", "Zebra", "Jirafa", "Gorila"], "answer": "Lehoia", "tags": ["mamifero"] },
+{ "question": "Zein da munduko animalia altuena?", "options": ["Elefantea", "Jirafa", "Ostruka", "Hartza", "Zaldia", "Hipopotamoa"], "answer": "Jirafa", "tags": ["mamifero"] },
 { "question": "Zein da gaueko hegazti harrapari ezagunena?", "options": ["Hontza", "Arranoa", "Belatza", "Putrea", "Zikoina", "Usoa"], "answer": "Hontza", "tags": ["harrapariak"] },
 { "question": "Zein da planetako animalia handiena?", "options": ["Balea urdina", "Elefantea", "Orka", "Marrazo zuria", "Hipopotamoa", "Jirafa"], "answer": "Balea urdina" },
 { "question": "Zein animaliak erruten ditu arrautzak?", "options": ["Oiloa", "Txakurra", "Katua", "Zaldia", "Tximinoa", "Hartza"], "answer": "Oiloa" },
