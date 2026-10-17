@@ -1,54 +1,803 @@
 {
-  "es":
-  { "comun":
-  [
-    {"question": "¿Dónde se inventó la escritura?", "options": ["Mesopotamia", "Egipto", "Grecia", "Roma", "China", "América"], "answer": "Mesopotamia", "tags": ["historia"] ,
-      { "question": "¿Quién fue el primer ser humano en llegar a la Luna?", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn", "Alan Shepard", "Michael Collins"], "answer": "Neil Armstrong", "tags": ["historia", "espacio", "estados_unidos"] },
-      { "question": "¿En qué país nació Albert Einstein?", "options": ["Alemania", "Suiza", "Austria", "Francia", "Polonia", "Italia"], "answer": "Alemania", "tags": ["historia", "cientifico", "alemania"] },
-      { "question": "¿Qué civilización construyó las pirámides de Egipto?", "options": ["Egipcios", "Romanos", "Griegos", "Mayas", "Incas", "Fenicios"], "answer": "Egipcios", "tags": ["historia", "civilizacion", "egipto"] },
-      { "question": "¿Quién pintó la Mona Lisa?", "options": ["Leonardo da Vinci", "Miguel Ángel", "Rafael", "Caravaggio", "Botticelli", "Goya"], "answer": "Leonardo da Vinci", "tags": ["historia", "arte", "italia"] },
-      { "question": "¿Qué país descubrió América en 1492?", "options": ["España", "Portugal", "Francia", "Inglaterra", "Italia", "Holanda"], "answer": "España", "tags": ["historia", "descubrimiento", "españa"] },
-      { "question": "¿Quién fue el primer presidente de Estados Unidos?", "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams", "James Madison", "Benjamin Franklin"], "answer": "George Washington", "tags": ["historia", "politica", "estados_unidos"] },
-      { "question": "¿Qué país construyó la Gran Muralla?", "options": ["China", "Japón", "Corea", "India", "Mongolia", "Tailandia"], "answer": "China", "tags": ["historia", "monumento", "china"] },
-      { "question": "¿Quién fue Cleopatra?", "options": ["Reina de Egipto", "Reina de Roma", "Reina de Grecia", "Reina de Persia", "Reina de Cartago", "Reina de Israel"], "answer": "Reina de Egipto", "tags": ["historia", "monarquia", "egipto"] },
-      { "question": "¿Qué país construyó el Coliseo?", "options": ["Italia", "Grecia", "España", "Francia", "Turquía", "Egipto"], "answer": "Italia", "tags": ["historia", "monumento", "italia"] },
-      { "question": "¿Quién fue Marie Curie?", "options": ["Científica", "Exploradora", "Pintora", "Reina", "Escritora", "Inventora"], "answer": "Científica", "tags": ["historia", "cientifico", "polonia"] },
-      { "question": "¿Qué país inventó la democracia antigua?", "options": ["Grecia", "Italia", "Francia", "España", "Alemania", "Turquía"], "answer": "Grecia", "tags": ["historia", "politica", "grecia"] },
-      { "question": "¿Quién escribió 'El Quijote'?", "options": ["Miguel de Cervantes", "Lope de Vega", "García Lorca", "Góngora", "Quevedo", "Bécquer"], "answer": "Miguel de Cervantes", "tags": ["historia", "literatura", "españa"] },
-      { "question": "¿Qué país construyó Machu Picchu?", "options": ["Perú", "México", "Chile", "Colombia", "Bolivia", "Ecuador"], "answer": "Perú", "tags": ["historia", "civilizacion", "peru"] },
-      { "question": "¿Quién fue Julio César?", "options": ["Líder romano", "Rey griego", "Faraón egipcio", "Emperador chino", "Guerrero vikingo", "Explorador"], "answer": "Líder romano", "tags": ["historia", "imperio", "italia"] },
-      { "question": "¿Qué país construyó la Torre Eiffel?", "options": ["Francia", "Italia", "España", "Alemania", "Bélgica", "Suiza"], "answer": "Francia", "tags": ["historia", "monumento", "francia"] },
-      { "question": "¿Quién fue Gandhi?", "options": ["Líder pacifista", "Rey", "General", "Inventor", "Explorador", "Científico"], "answer": "Líder pacifista", "tags": ["historia", "politica", "india"] },
-      { "question": "¿Qué país construyó el Taj Mahal?", "options": ["India", "Pakistán", "Nepal", "Bangladés", "Sri Lanka", "Irán"], "answer": "India", "tags": ["historia", "monumento", "india"] },
-      { "question": "¿Quién fue Mozart?", "options": ["Compositor", "Pintor", "Inventor", "Rey", "Explorador", "Científico"], "answer": "Compositor", "tags": ["historia", "musica", "austria"] },
-      { "question": "¿Qué país construyó Stonehenge?", "options": ["Reino Unido", "Irlanda", "Francia", "Alemania", "Dinamarca", "Suecia"], "answer": "Reino Unido", "tags": ["historia", "monumento", "reino_unido"] },
-      { "question": "¿Quién fue Frida Kahlo?", "options": ["Pintora", "Escritora", "Científica", "Reina", "Inventora", "Exploradora"], "answer": "Pintora", "tags": ["historia", "arte", "mexico"] },
-      { "question": "¿Qué país fue el hogar de los vikingos?", "options": ["Noruega", "Suecia", "Dinamarca", "Finlandia", "Islandia", "Alemania"], "answer": "Noruega", "tags": ["historia", "civilizacion", "noruega"] },
-      { "question": "¿Quién fue Martin Luther King?", "options": ["Activista", "Presidente", "General", "Inventor", "Explorador", "Científico"], "answer": "Activista", "tags": ["historia", "derechos", "estados_unidos"] },
-      { "question": "¿Qué país construyó la Acrópolis?", "options": ["Grecia", "Italia", "Turquía", "Francia", "España", "Alemania"], "answer": "Grecia", "tags": ["historia", "monumento", "grecia"] },
-      { "question": "¿Quién fue Napoleón Bonaparte?", "options": ["Emperador francés", "Rey español", "General italiano", "Explorador inglés", "Inventor alemán", "Científico"], "answer": "Emperador francés", "tags": ["historia", "politica", "francia"] },
-      { "question": "¿Qué país construyó la ciudad de Petra?", "options": ["Jordania", "Egipto", "Arabia Saudí", "Irak", "Irán", "Turquía"], "answer": "Jordania", "tags": ["historia", "monumento", "jordania"] },
-      { "question": "¿Quién fue Beethoven?", "options": ["Compositor", "Pintor", "Inventor", "Rey", "Explorador", "Científico"], "answer": "Compositor", "tags": ["historia", "musica", "alemania"] },
-      { "question": "¿Qué país construyó Teotihuacán?", "options": ["México", "Perú", "Guatemala", "Colombia", "Brasil", "Chile"], "answer": "México", "tags": ["historia", "civilizacion", "mexico"] },
-      { "question": "¿Quién fue Simón Bolívar?", "options": ["Libertador", "Rey", "General europeo", "Inventor", "Científico", "Explorador"], "answer": "Libertador", "tags": ["historia", "politica", "venezuela"] },
-      { "question": "¿Qué país construyó el Kremlin?", "options": ["Rusia", "Polonia", "Alemania", "Ucrania", "Finlandia", "Suecia"], "answer": "Rusia", "tags": ["historia", "monumento", "rusia"] },
-      { "question": "¿Quién fue Marie Antoinette?", "options": ["Reina de Francia", "Reina de España", "Reina de Italia", "Reina de Inglaterra", "Reina de Rusia", "Reina de Grecia"], "answer": "Reina de Francia", "tags": ["historia", "monarquia", "francia"] },
-      { "question": "¿Qué país construyó Angkor Wat?", "options": ["Camboya", "Tailandia", "Vietnam", "Laos", "Myanmar", "China"], "answer": "Camboya", "tags": ["historia", "monumento", "camboya"] },
-      { "question": "¿Quién fue Isaac Newton?", "options": ["Científico", "Explorador", "Rey", "Inventor", "Pintor", "General"], "answer": "Científico", "tags": ["historia", "ciencia", "reino_unido"] },
-      { "question": "¿Qué país fue el origen de la civilización persa?", "options": ["Irán", "Irak", "Turquía", "Siria", "Egipto", "Arabia Saudí"], "answer": "Irán", "tags": ["historia", "civilizacion", "iran"] },
-      { "question": "¿Quién fue Pablo Picasso?", "options": ["Pintor", "Científico", "Inventor", "Rey", "Explorador", "General"], "answer": "Pintor", "tags": ["historia", "arte", "españa"] },
-      { "question": "¿Qué país construyó la ciudad de Babilonia?", "options": ["Irak", "Irán", "Siria", "Turquía", "Egipto", "Arabia Saudí"], "answer": "Irak", "tags": ["historia", "civilizacion", "irak"] },
-      { "question": "¿Quién fue Charles Darwin?", "options": ["Científico", "Rey", "Inventor", "Explorador", "General", "Pintor"], "answer": "Científico", "tags": ["historia", "ciencia", "reino_unido"] },
-      { "question": "¿Qué país construyó la ciudad de Cusco?", "options": ["Perú", "Bolivia", "Chile", "Ecuador", "Colombia", "Brasil"], "answer": "Perú", "tags": ["historia", "civilizacion", "peru"] },
-      { "question": "¿Quién fue Juana de Arco?", "options": ["Heroína francesa", "Reina española", "General italiana", "Exploradora inglesa", "Inventora alemana", "Científica"], "answer": "Heroína francesa", "tags": ["historia", "politica", "francia"] },
-      { "question": "¿Qué país construyó la ciudad de Atenas?", "options": ["Grecia", "Italia", "Turquía", "Francia", "España", "Alemania"], "answer": "Grecia", "tags": ["historia", "ciudad", "grecia"] },
-      { "question": "¿Quién fue Nikola Tesla?", "options": ["Inventor", "Rey", "General", "Explorador", "Pintor", "Científico"], "answer": "Inventor", "tags": ["historia", "tecnologia", "serbia"] },
-      { "question": "¿Qué país construyó la ciudad de Roma?", "options": ["Italia", "Grecia", "Turquía", "Francia", "España", "Egipto"], "answer": "Italia", "tags": ["historia", "ciudad", "italia"] },
-      { "question": "¿Quién fue Florence Nightingale?", "options": ["Enfermera pionera", "Reina", "Inventora", "Exploradora", "Científica", "General"], "answer": "Enfermera pionera", "tags": ["historia", "salud", "reino_unido"] },
-      { "question": "¿Qué país construyó la ciudad de Jerusalén?", "options": ["Israel", "Palestina", "Jordania", "Egipto", "Líbano", "Siria"], "answer": "Israel", "tags": ["historia", "religion", "israel"] },
-      { "question": "¿Quién fue Marco Polo?", "options": ["Explorador", "Rey", "Inventor", "General", "Científico", "Pintor"], "answer": "Explorador", "tags": ["historia", "exploracion", "italia"] },
-      { "question": "¿Qué país construyó la ciudad de Kioto?", "options": ["Japón", "China", "Corea", "Vietnam", "Tailandia", "Filipinas"], "answer": "Japón", "tags": ["historia", "ciudad", "japon"] }
-  ]
+  "version": "0.0.1",
+  "es": {
+    "comun": [
+      {
+        "question": "¿Dónde se inventó la escritura?",
+        "options": [
+          "Mesopotamia",
+          "Egipto",
+          "Grecia",
+          "Roma",
+          "China",
+          "América"
+        ],
+        "answer": "Mesopotamia",
+        "tags": [
+          "historia"
+        ]
+      },
+      {
+        "question": "¿Quién fue el primer ser humano en llegar a la Luna?",
+        "options": [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "John Glenn",
+          "Alan Shepard",
+          "Michael Collins"
+        ],
+        "answer": "Neil Armstrong",
+        "tags": [
+          "historia",
+          "espacio",
+          "estados_unidos"
+        ]
+      },
+      {
+        "question": "¿En qué país nació Albert Einstein?",
+        "options": [
+          "Alemania",
+          "Suiza",
+          "Austria",
+          "Francia",
+          "Polonia",
+          "Italia"
+        ],
+        "answer": "Alemania",
+        "tags": [
+          "historia",
+          "cientifico",
+          "alemania"
+        ]
+      },
+      {
+        "question": "¿Qué civilización construyó las pirámides de Egipto?",
+        "options": [
+          "Egipcios",
+          "Romanos",
+          "Griegos",
+          "Mayas",
+          "Incas",
+          "Fenicios"
+        ],
+        "answer": "Egipcios",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "egipto"
+        ]
+      },
+      {
+        "question": "¿Quién pintó la Mona Lisa?",
+        "options": [
+          "Leonardo da Vinci",
+          "Miguel Ángel",
+          "Rafael",
+          "Caravaggio",
+          "Botticelli",
+          "Goya"
+        ],
+        "answer": "Leonardo da Vinci",
+        "tags": [
+          "historia",
+          "arte",
+          "italia"
+        ]
+      },
+      {
+        "question": "¿Qué país descubrió América en 1492?",
+        "options": [
+          "España",
+          "Portugal",
+          "Francia",
+          "Inglaterra",
+          "Italia",
+          "Holanda"
+        ],
+        "answer": "España",
+        "tags": [
+          "historia",
+          "descubrimiento",
+          "españa"
+        ]
+      },
+      {
+        "question": "¿Quién fue el primer presidente de Estados Unidos?",
+        "options": [
+          "George Washington",
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "John Adams",
+          "James Madison",
+          "Benjamin Franklin"
+        ],
+        "answer": "George Washington",
+        "tags": [
+          "historia",
+          "politica",
+          "estados_unidos"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la Gran Muralla?",
+        "options": [
+          "China",
+          "Japón",
+          "Corea",
+          "India",
+          "Mongolia",
+          "Tailandia"
+        ],
+        "answer": "China",
+        "tags": [
+          "historia",
+          "monumento",
+          "china"
+        ]
+      },
+      {
+        "question": "¿Quién fue Cleopatra?",
+        "options": [
+          "Reina de Egipto",
+          "Reina de Roma",
+          "Reina de Grecia",
+          "Reina de Persia",
+          "Reina de Cartago",
+          "Reina de Israel"
+        ],
+        "answer": "Reina de Egipto",
+        "tags": [
+          "historia",
+          "monarquia",
+          "egipto"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó el Coliseo?",
+        "options": [
+          "Italia",
+          "Grecia",
+          "España",
+          "Francia",
+          "Turquía",
+          "Egipto"
+        ],
+        "answer": "Italia",
+        "tags": [
+          "historia",
+          "monumento",
+          "italia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Marie Curie?",
+        "options": [
+          "Científica",
+          "Exploradora",
+          "Pintora",
+          "Reina",
+          "Escritora",
+          "Inventora"
+        ],
+        "answer": "Científica",
+        "tags": [
+          "historia",
+          "cientifico",
+          "polonia"
+        ]
+      },
+      {
+        "question": "¿Qué país inventó la democracia antigua?",
+        "options": [
+          "Grecia",
+          "Italia",
+          "Francia",
+          "España",
+          "Alemania",
+          "Turquía"
+        ],
+        "answer": "Grecia",
+        "tags": [
+          "historia",
+          "politica",
+          "grecia"
+        ]
+      },
+      {
+        "question": "¿Quién escribió 'El Quijote'?",
+        "options": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "García Lorca",
+          "Góngora",
+          "Quevedo",
+          "Bécquer"
+        ],
+        "answer": "Miguel de Cervantes",
+        "tags": [
+          "historia",
+          "literatura",
+          "españa"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó Machu Picchu?",
+        "options": [
+          "Perú",
+          "México",
+          "Chile",
+          "Colombia",
+          "Bolivia",
+          "Ecuador"
+        ],
+        "answer": "Perú",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "peru"
+        ]
+      },
+      {
+        "question": "¿Quién fue Julio César?",
+        "options": [
+          "Líder romano",
+          "Rey griego",
+          "Faraón egipcio",
+          "Emperador chino",
+          "Guerrero vikingo",
+          "Explorador"
+        ],
+        "answer": "Líder romano",
+        "tags": [
+          "historia",
+          "imperio",
+          "italia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la Torre Eiffel?",
+        "options": [
+          "Francia",
+          "Italia",
+          "España",
+          "Alemania",
+          "Bélgica",
+          "Suiza"
+        ],
+        "answer": "Francia",
+        "tags": [
+          "historia",
+          "monumento",
+          "francia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Gandhi?",
+        "options": [
+          "Líder pacifista",
+          "Rey",
+          "General",
+          "Inventor",
+          "Explorador",
+          "Científico"
+        ],
+        "answer": "Líder pacifista",
+        "tags": [
+          "historia",
+          "politica",
+          "india"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó el Taj Mahal?",
+        "options": [
+          "India",
+          "Pakistán",
+          "Nepal",
+          "Bangladés",
+          "Sri Lanka",
+          "Irán"
+        ],
+        "answer": "India",
+        "tags": [
+          "historia",
+          "monumento",
+          "india"
+        ]
+      },
+      {
+        "question": "¿Quién fue Mozart?",
+        "options": [
+          "Compositor",
+          "Pintor",
+          "Inventor",
+          "Rey",
+          "Explorador",
+          "Científico"
+        ],
+        "answer": "Compositor",
+        "tags": [
+          "historia",
+          "musica",
+          "austria"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó Stonehenge?",
+        "options": [
+          "Reino Unido",
+          "Irlanda",
+          "Francia",
+          "Alemania",
+          "Dinamarca",
+          "Suecia"
+        ],
+        "answer": "Reino Unido",
+        "tags": [
+          "historia",
+          "monumento",
+          "reino_unido"
+        ]
+      },
+      {
+        "question": "¿Quién fue Frida Kahlo?",
+        "options": [
+          "Pintora",
+          "Escritora",
+          "Científica",
+          "Reina",
+          "Inventora",
+          "Exploradora"
+        ],
+        "answer": "Pintora",
+        "tags": [
+          "historia",
+          "arte",
+          "mexico"
+        ]
+      },
+      {
+        "question": "¿Qué país fue el hogar de los vikingos?",
+        "options": [
+          "Noruega",
+          "Suecia",
+          "Dinamarca",
+          "Finlandia",
+          "Islandia",
+          "Alemania"
+        ],
+        "answer": "Noruega",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "noruega"
+        ]
+      },
+      {
+        "question": "¿Quién fue Martin Luther King?",
+        "options": [
+          "Activista",
+          "Presidente",
+          "General",
+          "Inventor",
+          "Explorador",
+          "Científico"
+        ],
+        "answer": "Activista",
+        "tags": [
+          "historia",
+          "derechos",
+          "estados_unidos"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la Acrópolis?",
+        "options": [
+          "Grecia",
+          "Italia",
+          "Turquía",
+          "Francia",
+          "España",
+          "Alemania"
+        ],
+        "answer": "Grecia",
+        "tags": [
+          "historia",
+          "monumento",
+          "grecia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Napoleón Bonaparte?",
+        "options": [
+          "Emperador francés",
+          "Rey español",
+          "General italiano",
+          "Explorador inglés",
+          "Inventor alemán",
+          "Científico"
+        ],
+        "answer": "Emperador francés",
+        "tags": [
+          "historia",
+          "politica",
+          "francia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Petra?",
+        "options": [
+          "Jordania",
+          "Egipto",
+          "Arabia Saudí",
+          "Irak",
+          "Irán",
+          "Turquía"
+        ],
+        "answer": "Jordania",
+        "tags": [
+          "historia",
+          "monumento",
+          "jordania"
+        ]
+      },
+      {
+        "question": "¿Quién fue Beethoven?",
+        "options": [
+          "Compositor",
+          "Pintor",
+          "Inventor",
+          "Rey",
+          "Explorador",
+          "Científico"
+        ],
+        "answer": "Compositor",
+        "tags": [
+          "historia",
+          "musica",
+          "alemania"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó Teotihuacán?",
+        "options": [
+          "México",
+          "Perú",
+          "Guatemala",
+          "Colombia",
+          "Brasil",
+          "Chile"
+        ],
+        "answer": "México",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "mexico"
+        ]
+      },
+      {
+        "question": "¿Quién fue Simón Bolívar?",
+        "options": [
+          "Libertador",
+          "Rey",
+          "General europeo",
+          "Inventor",
+          "Científico",
+          "Explorador"
+        ],
+        "answer": "Libertador",
+        "tags": [
+          "historia",
+          "politica",
+          "venezuela"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó el Kremlin?",
+        "options": [
+          "Rusia",
+          "Polonia",
+          "Alemania",
+          "Ucrania",
+          "Finlandia",
+          "Suecia"
+        ],
+        "answer": "Rusia",
+        "tags": [
+          "historia",
+          "monumento",
+          "rusia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Marie Antoinette?",
+        "options": [
+          "Reina de Francia",
+          "Reina de España",
+          "Reina de Italia",
+          "Reina de Inglaterra",
+          "Reina de Rusia",
+          "Reina de Grecia"
+        ],
+        "answer": "Reina de Francia",
+        "tags": [
+          "historia",
+          "monarquia",
+          "francia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó Angkor Wat?",
+        "options": [
+          "Camboya",
+          "Tailandia",
+          "Vietnam",
+          "Laos",
+          "Myanmar",
+          "China"
+        ],
+        "answer": "Camboya",
+        "tags": [
+          "historia",
+          "monumento",
+          "camboya"
+        ]
+      },
+      {
+        "question": "¿Quién fue Isaac Newton?",
+        "options": [
+          "Científico",
+          "Explorador",
+          "Rey",
+          "Inventor",
+          "Pintor",
+          "General"
+        ],
+        "answer": "Científico",
+        "tags": [
+          "historia",
+          "ciencia",
+          "reino_unido"
+        ]
+      },
+      {
+        "question": "¿Qué país fue el origen de la civilización persa?",
+        "options": [
+          "Irán",
+          "Irak",
+          "Turquía",
+          "Siria",
+          "Egipto",
+          "Arabia Saudí"
+        ],
+        "answer": "Irán",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "iran"
+        ]
+      },
+      {
+        "question": "¿Quién fue Pablo Picasso?",
+        "options": [
+          "Pintor",
+          "Científico",
+          "Inventor",
+          "Rey",
+          "Explorador",
+          "General"
+        ],
+        "answer": "Pintor",
+        "tags": [
+          "historia",
+          "arte",
+          "españa"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Babilonia?",
+        "options": [
+          "Irak",
+          "Irán",
+          "Siria",
+          "Turquía",
+          "Egipto",
+          "Arabia Saudí"
+        ],
+        "answer": "Irak",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "irak"
+        ]
+      },
+      {
+        "question": "¿Quién fue Charles Darwin?",
+        "options": [
+          "Científico",
+          "Rey",
+          "Inventor",
+          "Explorador",
+          "General",
+          "Pintor"
+        ],
+        "answer": "Científico",
+        "tags": [
+          "historia",
+          "ciencia",
+          "reino_unido"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Cusco?",
+        "options": [
+          "Perú",
+          "Bolivia",
+          "Chile",
+          "Ecuador",
+          "Colombia",
+          "Brasil"
+        ],
+        "answer": "Perú",
+        "tags": [
+          "historia",
+          "civilizacion",
+          "peru"
+        ]
+      },
+      {
+        "question": "¿Quién fue Juana de Arco?",
+        "options": [
+          "Heroína francesa",
+          "Reina española",
+          "General italiana",
+          "Exploradora inglesa",
+          "Inventora alemana",
+          "Científica"
+        ],
+        "answer": "Heroína francesa",
+        "tags": [
+          "historia",
+          "politica",
+          "francia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Atenas?",
+        "options": [
+          "Grecia",
+          "Italia",
+          "Turquía",
+          "Francia",
+          "España",
+          "Alemania"
+        ],
+        "answer": "Grecia",
+        "tags": [
+          "historia",
+          "ciudad",
+          "grecia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Nikola Tesla?",
+        "options": [
+          "Inventor",
+          "Rey",
+          "General",
+          "Explorador",
+          "Pintor",
+          "Científico"
+        ],
+        "answer": "Inventor",
+        "tags": [
+          "historia",
+          "tecnologia",
+          "serbia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Roma?",
+        "options": [
+          "Italia",
+          "Grecia",
+          "Turquía",
+          "Francia",
+          "España",
+          "Egipto"
+        ],
+        "answer": "Italia",
+        "tags": [
+          "historia",
+          "ciudad",
+          "italia"
+        ]
+      },
+      {
+        "question": "¿Quién fue Florence Nightingale?",
+        "options": [
+          "Enfermera pionera",
+          "Reina",
+          "Inventora",
+          "Exploradora",
+          "Científica",
+          "General"
+        ],
+        "answer": "Enfermera pionera",
+        "tags": [
+          "historia",
+          "salud",
+          "reino_unido"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Jerusalén?",
+        "options": [
+          "Israel",
+          "Palestina",
+          "Jordania",
+          "Egipto",
+          "Líbano",
+          "Siria"
+        ],
+        "answer": "Israel",
+        "tags": [
+          "historia",
+          "religion",
+          "israel"
+        ]
+      },
+      {
+        "question": "¿Quién fue Marco Polo?",
+        "options": [
+          "Explorador",
+          "Rey",
+          "Inventor",
+          "General",
+          "Científico",
+          "Pintor"
+        ],
+        "answer": "Explorador",
+        "tags": [
+          "historia",
+          "exploracion",
+          "italia"
+        ]
+      },
+      {
+        "question": "¿Qué país construyó la ciudad de Kioto?",
+        "options": [
+          "Japón",
+          "China",
+          "Corea",
+          "Vietnam",
+          "Tailandia",
+          "Filipinas"
+        ],
+        "answer": "Japón",
+        "tags": [
+          "historia",
+          "ciudad",
+          "japon"
+        ]
+      }
+    ]
   },
-  "eu": { "comun": [ { "question": "Non asmatu zen idazkera?", "options": ["Mesopotamian", "Egipton", "Grezian", "Erroman", "Txinan", "Amerikan"], "answer": "Mesopotamian" } ] }
+  "eu": {
+    "comun": [
+      {
+        "question": "Non asmatu zen idazkera?",
+        "options": [
+          "Mesopotamian",
+          "Egipton",
+          "Grezian",
+          "Erroman",
+          "Txinan",
+          "Amerikan"
+        ],
+        "answer": "Mesopotamian"
+      }
+    ]
+  }
 }
