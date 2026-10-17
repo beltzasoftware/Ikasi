@@ -1,121 +1,1211 @@
-
 {
+  "version": "0.0.1",
   "es": {
     "comun": [
-      { "question": "¿Cuál es el planeta más cercano al Sol?", "options": ["Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno"], "answer": "Mercurio" },
-      { "question": "¿Cómo se llama nuestra galaxia?", "options": ["Vía Láctea", "Andrómeda", "Triángulo", "Sombrero", "Cúmulo Local", "Centauro A"], "answer": "Vía Láctea" },
-      { "question": "¿Qué estrella es la más cercana a la Tierra?", "options": ["Sol", "Próxima Centauri", "Sirio", "Vega", "Betelgeuse", "Rigel"], "answer": "Sol" },
-      { "question": "¿Cuál es el planeta más grande del Sistema Solar?", "options": ["Júpiter", "Saturno", "Urano", "Neptuno", "Tierra", "Venus"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta es conocido como el planeta rojo?", "options": ["Marte", "Venus", "Mercurio", "Júpiter", "Saturno", "Urano"], "answer": "Marte" },
-      { "question": "¿Cómo se llama el satélite natural de la Tierra?", "options": ["Luna", "Europa", "Titán", "Ío", "Fobos", "Deimos"], "answer": "Luna" },
-      { "question": "¿Qué planeta tiene los anillos más visibles?", "options": ["Saturno", "Júpiter", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Saturno" },
-      { "question": "¿Qué es una estrella fugaz?", "options": ["Un meteoro", "Una estrella que explota", "Un cometa", "Un planeta", "Un satélite", "Un asteroide"], "answer": "Un meteoro" },
-      { "question": "¿Cómo se llama la galaxia más cercana a la Vía Láctea?", "options": ["Andrómeda", "Triángulo", "Sombrero", "Centauro A", "Pegaso", "Escultor"], "answer": "Andrómeda" },
-      { "question": "¿Qué planeta es famoso por sus grandes tormentas como la Gran Mancha Roja?", "options": ["Júpiter", "Saturno", "Neptuno", "Urano", "Marte", "Venus"], "answer": "Júpiter" },
-
-      { "question": "¿Qué es un cometa?", "options": ["Hielo y polvo", "Gas caliente", "Roca sólida", "Metal puro", "Plasma", "Luz"], "answer": "Hielo y polvo" },
-      { "question": "¿Cómo se llama la fuerza que mantiene los planetas en órbita?", "options": ["Gravedad", "Magnetismo", "Inercia", "Fricción", "Presión", "Energía"], "answer": "Gravedad" },
-      { "question": "¿Qué planeta tiene un día más largo que su año?", "options": ["Venus", "Mercurio", "Tierra", "Marte", "Júpiter", "Urano"], "answer": "Venus" },
-      { "question": "¿Qué planeta gira de lado?", "options": ["Urano", "Neptuno", "Saturno", "Júpiter", "Tierra", "Venus"], "answer": "Urano" },
-      { "question": "¿Qué tipo de astro es el Sol?", "options": ["Estrella", "Planeta", "Cometa", "Asteroide", "Nebulosa", "Luna"], "answer": "Estrella" },
-      { "question": "¿Cómo se llama el conjunto de planetas que orbitan el Sol?", "options": ["Sistema Solar", "Vía Láctea", "Cúmulo Local", "Universo", "Nebulosa Solar", "Constelación"], "answer": "Sistema Solar" },
-      { "question": "¿Qué planeta es conocido por su color azul intenso?", "options": ["Neptuno", "Urano", "Tierra", "Júpiter", "Venus", "Marte"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta tiene más lunas?", "options": ["Saturno", "Júpiter", "Urano", "Neptuno", "Tierra", "Marte"], "answer": "Saturno" },
-      { "question": "¿Qué es una galaxia?", "options": ["Un conjunto de estrellas", "Un planeta", "Un cometa", "Un satélite", "Un agujero negro", "Un meteorito"], "answer": "Un conjunto de estrellas" },
-      { "question": "¿Qué es un agujero negro?", "options": ["Región con gravedad extrema", "Una estrella fría", "Un planeta oscuro", "Un cometa gigante", "Un asteroide", "Una nebulosa"], "answer": "Región con gravedad extrema" },
-
-      { "question": "¿Qué planeta tiene la mayor densidad?", "options": ["Tierra", "Mercurio", "Venus", "Marte", "Júpiter", "Saturno"], "answer": "Tierra" },
-      { "question": "¿Qué planeta es el más caliente?", "options": ["Venus", "Mercurio", "Tierra", "Marte", "Júpiter", "Saturno"], "answer": "Venus" },
-      { "question": "¿Qué planeta tiene un gran sistema de anillos además de Saturno?", "options": ["Urano", "Júpiter", "Neptuno", "Tierra", "Marte", "Venus"], "answer": "Urano" },
-      { "question": "¿Qué es una nebulosa?", "options": ["Nube de gas y polvo", "Planeta joven", "Estrella fría", "Cometa", "Asteroide", "Luna"], "answer": "Nube de gas y polvo" },
-      { "question": "¿Qué planeta tiene la luna Titán?", "options": ["Saturno", "Júpiter", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Saturno" },
-      { "question": "¿Qué planeta tiene la luna Europa?", "options": ["Júpiter", "Saturno", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta tiene la luna Tritón?", "options": ["Neptuno", "Urano", "Júpiter", "Saturno", "Marte", "Tierra"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta tiene la luna Fobos?", "options": ["Marte", "Tierra", "Júpiter", "Saturno", "Urano", "Neptuno"], "answer": "Marte" },
-      { "question": "¿Qué planeta tiene la luna Ganimedes?", "options": ["Júpiter", "Saturno", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta tiene la luna Encélado?", "options": ["Saturno", "Júpiter", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Saturno" },
-
-      { "question": "¿Qué es un asteroide?", "options": ["Roca espacial", "Estrella pequeña", "Planeta enano", "Cometa", "Luna", "Gas caliente"], "answer": "Roca espacial" },
-      { "question": "¿Qué planeta es un gigante helado?", "options": ["Urano", "Neptuno", "Júpiter", "Saturno", "Tierra", "Venus"], "answer": "Urano" },
-      { "question": "¿Qué planeta es conocido por sus vientos extremos?", "options": ["Neptuno", "Júpiter", "Saturno", "Urano", "Marte", "Venus"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta tiene el día más corto?", "options": ["Júpiter", "Saturno", "Tierra", "Marte", "Venus", "Urano"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta tiene el año más largo?", "options": ["Neptuno", "Urano", "Saturno", "Júpiter", "Marte", "Venus"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta es el más pequeño?", "options": ["Mercurio", "Marte", "Venus", "Tierra", "Urano", "Neptuno"], "answer": "Mercurio" },
-      { "question": "¿Qué planeta tiene la atmósfera más densa?", "options": ["Venus", "Tierra", "Júpiter", "Saturno", "Urano", "Neptuno"], "answer": "Venus" },
-      { "question": "¿Qué planeta tiene la Gran Mancha Oscura?", "options": ["Neptuno", "Urano", "Júpiter", "Saturno", "Marte", "Venus"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta tiene más volcanes?", "options": ["Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano"], "answer": "Venus" },
-      { "question": "¿Qué planeta tiene la mayor montaña del Sistema Solar?", "options": ["Marte", "Tierra", "Venus", "Júpiter", "Saturno", "Urano"], "answer": "Marte" },
-
-      { "question": "¿Qué es una supernova?", "options": ["Explosión estelar", "Planeta gigante", "Cometa brillante", "Agujero negro", "Nebulosa", "Asteroide"], "answer": "Explosión estelar" },
-      { "question": "¿Qué es un exoplaneta?", "options": ["Planeta fuera del Sistema Solar", "Planeta enano", "Luna gigante", "Estrella fría", "Cometa", "Asteroide"], "answer": "Planeta fuera del Sistema Solar" },
-      { "question": "¿Qué planeta tiene la inclinación axial más extrema?", "options": ["Urano", "Neptuno", "Saturno", "Júpiter", "Tierra", "Venus"], "answer": "Urano" },
-      { "question": "¿Qué planeta tiene la mayor presión atmosférica?", "options": ["Venus", "Júpiter", "Saturno", "Urano", "Neptuno", "Tierra"], "answer": "Venus" },
-      { "question": "¿Qué planeta tiene la luna Calisto?", "options": ["Júpiter", "Saturno", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta tiene la luna Oberón?", "options": ["Urano", "Neptuno", "Júpiter", "Saturno", "Marte", "Tierra"], "answer": "Urano" },
-      { "question": "¿Qué planeta tiene la luna Nereida?", "options": ["Neptuno", "Urano", "Júpiter", "Saturno", "Marte", "Tierra"], "answer": "Neptuno" },
-      { "question": "¿Qué planeta tiene la luna Rea?", "options": ["Saturno", "Júpiter", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Saturno" },
-      { "question": "¿Qué planeta tiene la luna Ío?", "options": ["Júpiter", "Saturno", "Urano", "Neptuno", "Marte", "Tierra"], "answer": "Júpiter" },
-      { "question": "¿Qué planeta tiene la luna Ariel?", "options": ["Urano", "Neptuno", "Júpiter", "Saturno", "Marte", "Tierra"], "answer": "Urano" }
+      {
+        "question": "¿Cuál es el planeta más cercano al Sol?",
+        "options": [
+          "Mercurio",
+          "Venus",
+          "Tierra",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ],
+        "answer": "Mercurio"
+      },
+      {
+        "question": "¿Cómo se llama nuestra galaxia?",
+        "options": [
+          "Vía Láctea",
+          "Andrómeda",
+          "Triángulo",
+          "Sombrero",
+          "Cúmulo Local",
+          "Centauro A"
+        ],
+        "answer": "Vía Láctea"
+      },
+      {
+        "question": "¿Qué estrella es la más cercana a la Tierra?",
+        "options": [
+          "Sol",
+          "Próxima Centauri",
+          "Sirio",
+          "Vega",
+          "Betelgeuse",
+          "Rigel"
+        ],
+        "answer": "Sol"
+      },
+      {
+        "question": "¿Cuál es el planeta más grande del Sistema Solar?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Tierra",
+          "Venus"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta es conocido como el planeta rojo?",
+        "options": [
+          "Marte",
+          "Venus",
+          "Mercurio",
+          "Júpiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "¿Cómo se llama el satélite natural de la Tierra?",
+        "options": [
+          "Luna",
+          "Europa",
+          "Titán",
+          "Ío",
+          "Fobos",
+          "Deimos"
+        ],
+        "answer": "Luna"
+      },
+      {
+        "question": "¿Qué planeta tiene los anillos más visibles?",
+        "options": [
+          "Saturno",
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "¿Qué es una estrella fugaz?",
+        "options": [
+          "Un meteoro",
+          "Una estrella que explota",
+          "Un cometa",
+          "Un planeta",
+          "Un satélite",
+          "Un asteroide"
+        ],
+        "answer": "Un meteoro"
+      },
+      {
+        "question": "¿Cómo se llama la galaxia más cercana a la Vía Láctea?",
+        "options": [
+          "Andrómeda",
+          "Triángulo",
+          "Sombrero",
+          "Centauro A",
+          "Pegaso",
+          "Escultor"
+        ],
+        "answer": "Andrómeda"
+      },
+      {
+        "question": "¿Qué planeta es famoso por sus grandes tormentas como la Gran Mancha Roja?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Neptuno",
+          "Urano",
+          "Marte",
+          "Venus"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué es un cometa?",
+        "options": [
+          "Hielo y polvo",
+          "Gas caliente",
+          "Roca sólida",
+          "Metal puro",
+          "Plasma",
+          "Luz"
+        ],
+        "answer": "Hielo y polvo"
+      },
+      {
+        "question": "¿Cómo se llama la fuerza que mantiene los planetas en órbita?",
+        "options": [
+          "Gravedad",
+          "Magnetismo",
+          "Inercia",
+          "Fricción",
+          "Presión",
+          "Energía"
+        ],
+        "answer": "Gravedad"
+      },
+      {
+        "question": "¿Qué planeta tiene un día más largo que su año?",
+        "options": [
+          "Venus",
+          "Mercurio",
+          "Tierra",
+          "Marte",
+          "Júpiter",
+          "Urano"
+        ],
+        "answer": "Venus"
+      },
+      {
+        "question": "¿Qué planeta gira de lado?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Saturno",
+          "Júpiter",
+          "Tierra",
+          "Venus"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "¿Qué tipo de astro es el Sol?",
+        "options": [
+          "Estrella",
+          "Planeta",
+          "Cometa",
+          "Asteroide",
+          "Nebulosa",
+          "Luna"
+        ],
+        "answer": "Estrella"
+      },
+      {
+        "question": "¿Cómo se llama el conjunto de planetas que orbitan el Sol?",
+        "options": [
+          "Sistema Solar",
+          "Vía Láctea",
+          "Cúmulo Local",
+          "Universo",
+          "Nebulosa Solar",
+          "Constelación"
+        ],
+        "answer": "Sistema Solar"
+      },
+      {
+        "question": "¿Qué planeta es conocido por su color azul intenso?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Tierra",
+          "Júpiter",
+          "Venus",
+          "Marte"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta tiene más lunas?",
+        "options": [
+          "Saturno",
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Tierra",
+          "Marte"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "¿Qué es una galaxia?",
+        "options": [
+          "Un conjunto de estrellas",
+          "Un planeta",
+          "Un cometa",
+          "Un satélite",
+          "Un agujero negro",
+          "Un meteorito"
+        ],
+        "answer": "Un conjunto de estrellas"
+      },
+      {
+        "question": "¿Qué es un agujero negro?",
+        "options": [
+          "Región con gravedad extrema",
+          "Una estrella fría",
+          "Un planeta oscuro",
+          "Un cometa gigante",
+          "Un asteroide",
+          "Una nebulosa"
+        ],
+        "answer": "Región con gravedad extrema"
+      },
+      {
+        "question": "¿Qué planeta tiene la mayor densidad?",
+        "options": [
+          "Tierra",
+          "Mercurio",
+          "Venus",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ],
+        "answer": "Tierra"
+      },
+      {
+        "question": "¿Qué planeta es el más caliente?",
+        "options": [
+          "Venus",
+          "Mercurio",
+          "Tierra",
+          "Marte",
+          "Júpiter",
+          "Saturno"
+        ],
+        "answer": "Venus"
+      },
+      {
+        "question": "¿Qué planeta tiene un gran sistema de anillos además de Saturno?",
+        "options": [
+          "Urano",
+          "Júpiter",
+          "Neptuno",
+          "Tierra",
+          "Marte",
+          "Venus"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "¿Qué es una nebulosa?",
+        "options": [
+          "Nube de gas y polvo",
+          "Planeta joven",
+          "Estrella fría",
+          "Cometa",
+          "Asteroide",
+          "Luna"
+        ],
+        "answer": "Nube de gas y polvo"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Titán?",
+        "options": [
+          "Saturno",
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Europa?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Tritón?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Júpiter",
+          "Saturno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Fobos?",
+        "options": [
+          "Marte",
+          "Tierra",
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Ganimedes?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Encélado?",
+        "options": [
+          "Saturno",
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "¿Qué es un asteroide?",
+        "options": [
+          "Roca espacial",
+          "Estrella pequeña",
+          "Planeta enano",
+          "Cometa",
+          "Luna",
+          "Gas caliente"
+        ],
+        "answer": "Roca espacial"
+      },
+      {
+        "question": "¿Qué planeta es un gigante helado?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Júpiter",
+          "Saturno",
+          "Tierra",
+          "Venus"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "¿Qué planeta es conocido por sus vientos extremos?",
+        "options": [
+          "Neptuno",
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Marte",
+          "Venus"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta tiene el día más corto?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Tierra",
+          "Marte",
+          "Venus",
+          "Urano"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta tiene el año más largo?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Saturno",
+          "Júpiter",
+          "Marte",
+          "Venus"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta es el más pequeño?",
+        "options": [
+          "Mercurio",
+          "Marte",
+          "Venus",
+          "Tierra",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Mercurio"
+      },
+      {
+        "question": "¿Qué planeta tiene la atmósfera más densa?",
+        "options": [
+          "Venus",
+          "Tierra",
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Venus"
+      },
+      {
+        "question": "¿Qué planeta tiene la Gran Mancha Oscura?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Júpiter",
+          "Saturno",
+          "Marte",
+          "Venus"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta tiene más volcanes?",
+        "options": [
+          "Venus",
+          "Tierra",
+          "Marte",
+          "Júpiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Venus"
+      },
+      {
+        "question": "¿Qué planeta tiene la mayor montaña del Sistema Solar?",
+        "options": [
+          "Marte",
+          "Tierra",
+          "Venus",
+          "Júpiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "¿Qué es una supernova?",
+        "options": [
+          "Explosión estelar",
+          "Planeta gigante",
+          "Cometa brillante",
+          "Agujero negro",
+          "Nebulosa",
+          "Asteroide"
+        ],
+        "answer": "Explosión estelar"
+      },
+      {
+        "question": "¿Qué es un exoplaneta?",
+        "options": [
+          "Planeta fuera del Sistema Solar",
+          "Planeta enano",
+          "Luna gigante",
+          "Estrella fría",
+          "Cometa",
+          "Asteroide"
+        ],
+        "answer": "Planeta fuera del Sistema Solar"
+      },
+      {
+        "question": "¿Qué planeta tiene la inclinación axial más extrema?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Saturno",
+          "Júpiter",
+          "Tierra",
+          "Venus"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "¿Qué planeta tiene la mayor presión atmosférica?",
+        "options": [
+          "Venus",
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Tierra"
+        ],
+        "answer": "Venus"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Calisto?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Oberón?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Júpiter",
+          "Saturno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Nereida?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Júpiter",
+          "Saturno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Rea?",
+        "options": [
+          "Saturno",
+          "Júpiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Ío?",
+        "options": [
+          "Júpiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Júpiter"
+      },
+      {
+        "question": "¿Qué planeta tiene la luna Ariel?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Júpiter",
+          "Saturno",
+          "Marte",
+          "Tierra"
+        ],
+        "answer": "Urano"
+      }
     ]
   },
-
-
   "eu": {
     "comun": [
-      { "question": "Zein da Eguzkitik gertuen dagoen planeta?", "options": ["Merkurio", "Artizarra", "Lurra", "Marte", "Jupiter", "Saturno"], "answer": "Merkurio" },
-      { "question": "Nola deitzen da gure galaxia?", "options": ["Esne Bidea", "Andromeda", "Triangelua", "Sombrero", "Tokiko Multzoa", "Zentauro A"], "answer": "Esne Bidea" },
-      { "question": "Zein izar dago Lurrera gertuen?", "options": ["Eguzkia", "Proxima Centauri", "Sirius", "Vega", "Betelgeuse", "Rigel"], "answer": "Eguzkia" },
-      { "question": "Zein da Eguzki Sistemako planeta handiena?", "options": ["Jupiter", "Saturno", "Urano", "Neptuno", "Lurra", "Artizarra"], "answer": "Jupiter" },
-      { "question": "Zein planeta da planeta gorria?", "options": ["Marte", "Artizarra", "Merkurio", "Jupiter", "Saturno", "Urano"], "answer": "Marte" },
-      { "question": "Nola deitzen da Lurraren satelite naturala?", "options": ["Ilargia", "Europa", "Titan", "Io", "Fobos", "Deimos"], "answer": "Ilargia" },
-      { "question": "Zein planetak ditu eraztun ikusgarrienak?", "options": ["Saturno", "Jupiter", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Saturno" },
-      { "question": "Zer da izar iheskor bat?", "options": ["Meteoro bat", "Leherketako izarra", "Kometaren bat", "Planeta bat", "Satelite bat", "Asteroide bat"], "answer": "Meteoro bat" },
-      { "question": "Zein galaxia dago Esne Bidera gertuen?", "options": ["Andromeda", "Triangelua", "Sombrero", "Zentauro A", "Pegaso", "Eskultorea"], "answer": "Andromeda" },
-      { "question": "Zein planetak ditu ekaitz handiak, Orban Gorri Handia bezala?", "options": ["Jupiter", "Saturno", "Neptuno", "Urano", "Marte", "Artizarra"], "answer": "Jupiter" },
-
-      { "question": "Zer da kometa bat?", "options": ["Izotza eta hautsa", "Gas beroa", "Harria", "Metala", "Plasma", "Argia"], "answer": "Izotza eta hautsa" },
-      { "question": "Zein indarrek mantentzen ditu planetak orbitan?", "options": ["Grabitatea", "Magnetismoa", "Inertzia", "Igurtzia", "Presioa", "Energia"], "answer": "Grabitatea" },
-      { "question": "Zein planetak du egun bat urte bat baino luzeagoa?", "options": ["Artizarra", "Merkurio", "Lurra", "Marte", "Jupiter", "Urano"], "answer": "Artizarra" },
-      { "question": "Zein planeta biratzen da alboz?", "options": ["Urano", "Neptuno", "Saturno", "Jupiter", "Lurra", "Artizarra"], "answer": "Urano" },
-      { "question": "Zer da Eguzkia?", "options": ["Izarra", "Planeta", "Kometa", "Asteroidea", "Nebulosa", "Ilargia"], "answer": "Izarra" },
-      { "question": "Nola deitzen da Eguzkiaren inguruan dauden planeten multzoa?", "options": ["Eguzki Sistema", "Esne Bidea", "Tokiko Multzoa", "Unibertsoa", "Nebulosa", "Konstelazioa"], "answer": "Eguzki Sistema" },
-      { "question": "Zein planeta da urdin ilunena?", "options": ["Neptuno", "Urano", "Lurra", "Jupiter", "Artizarra", "Marte"], "answer": "Neptuno" },
-      { "question": "Zein planetak ditu ilargi gehien?", "options": ["Saturno", "Jupiter", "Urano", "Neptuno", "Lurra", "Marte"], "answer": "Saturno" },
-      { "question": "Zer da galaxia bat?", "options": ["Izar multzo bat", "Planeta bat", "Kometa bat", "Satelite bat", "Zulo beltz bat", "Meteoro bat"], "answer": "Izar multzo bat" },
-      { "question": "Zer da zulo beltz bat?", "options": ["Grabitate handiko eremua", "Izar hotza", "Planeta iluna", "Kometa erraldoia", "Asteroidea", "Nebulosa"], "answer": "Grabitate handiko eremua" },
-
-      { "question": "Zein planeta da dentsitate handiena duena?", "options": ["Lurra", "Merkurio", "Artizarra", "Marte", "Jupiter", "Saturno"], "answer": "Lurra" },
-      { "question": "Zein planeta da beroena?", "options": ["Artizarra", "Merkurio", "Lurra", "Marte", "Jupiter", "Saturno"], "answer": "Artizarra" },
-      { "question": "Zein planetak ditu eraztunak Saturnoz gain?", "options": ["Urano", "Jupiter", "Neptuno", "Lurra", "Marte", "Artizarra"], "answer": "Urano" },
-      { "question": "Zer da nebulosa bat?", "options": ["Gas eta hauts hodeia", "Planeta gaztea", "Izar hotza", "Kometa", "Asteroidea", "Ilargia"], "answer": "Gas eta hauts hodeia" },
-      { "question": "Zein planetak du Titan ilargia?", "options": ["Saturno", "Jupiter", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Saturno" },
-      { "question": "Zein planetak du Europa ilargia?", "options": ["Jupiter", "Saturno", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Jupiter" },
-      { "question": "Zein planetak du Triton ilargia?", "options": ["Neptuno", "Urano", "Jupiter", "Saturno", "Marte", "Lurra"], "answer": "Neptuno" },
-      { "question": "Zein planetak du Fobos ilargia?", "options": ["Marte", "Lurra", "Jupiter", "Saturno", "Urano", "Neptuno"], "answer": "Marte" },
-      { "question": "Zein planetak du Ganimedes ilargia?", "options": ["Jupiter", "Saturno", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Jupiter" },
-      { "question": "Zein planetak du Enzelado ilargia?", "options": ["Saturno", "Jupiter", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Saturno" },
-
-      { "question": "Zer da asteroide bat?", "options": ["Harrizko objektua", "Izar txikia", "Planeta nanoa", "Kometa", "Ilargia", "Gas beroa"], "answer": "Harrizko objektua" },
-      { "question": "Zein planeta da erraldoi izoztua?", "options": ["Urano", "Neptuno", "Jupiter", "Saturno", "Lurra", "Artizarra"], "answer": "Urano" },
-      { "question": "Zein planeta da haize bortitzenengatik ezaguna?", "options": ["Neptuno", "Jupiter", "Saturno", "Urano", "Marte", "Artizarra"], "answer": "Neptuno" },
-      { "question": "Zein planetak du egun laburrena?", "options": ["Jupiter", "Saturno", "Lurra", "Marte", "Artizarra", "Urano"], "answer": "Jupiter" },
-      { "question": "Zein planetak du urte luzeena?", "options": ["Neptuno", "Urano", "Saturno", "Jupiter", "Marte", "Artizarra"], "answer": "Neptuno" },
-      { "question": "Zein da Eguzki Sistemako planeta txikiena?", "options": ["Merkurio", "Marte", "Artizarra", "Lurra", "Urano", "Neptuno"], "answer": "Merkurio" },
-      { "question": "Zein planetak du atmosfera trinkoen?", "options": ["Artizarra", "Lurra", "Jupiter", "Saturno", "Urano", "Neptuno"], "answer": "Artizarra" },
-      { "question": "Zein planetak du Orban Ilun Handia?", "options": ["Neptuno", "Urano", "Jupiter", "Saturno", "Marte", "Artizarra"], "answer": "Neptuno" },
-      { "question": "Zein planetak ditu sumendi gehien?", "options": ["Artizarra", "Lurra", "Marte", "Jupiter", "Saturno", "Urano"], "answer": "Artizarra" },
-      { "question": "Zein planetak du Eguzki Sistemako mendirik altuena?", "options": ["Marte", "Lurra", "Artizarra", "Jupiter", "Saturno", "Urano"], "answer": "Marte" },
-
-      { "question": "Zer da supernova bat?", "options": ["Izar baten leherketa", "Planeta erraldoia", "Kometa distiratsua", "Zulo beltza", "Nebulosa", "Asteroidea"], "answer": "Izar baten leherketa" },
-      { "question": "Zer da exoplaneta bat?", "options": ["Eguzki Sistematik kanpoko planeta", "Planeta nanoa", "Ilargi erraldoia", "Izar hotza", "Kometa", "Asteroidea"], "answer": "Eguzki Sistematik kanpoko planeta" },
-      { "question": "Zein planetak du ardatz inklinazio handiena?", "options": ["Urano", "Neptuno", "Saturno", "Jupiter", "Lurra", "Artizarra"], "answer": "Urano" },
-      { "question": "Zein planetak du presio atmosferiko handiena?", "options": ["Artizarra", "Jupiter", "Saturno", "Urano", "Neptuno", "Lurra"], "answer": "Artizarra" },
-      { "question": "Zein planetak du Kalisto ilargia?", "options": ["Jupiter", "Saturno", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Jupiter" },
-      { "question": "Zein planetak du Oberon ilargia?", "options": ["Urano", "Neptuno", "Jupiter", "Saturno", "Marte", "Lurra"], "answer": "Urano" },
-      { "question": "Zein planetak du Nereida ilargia?", "options": ["Neptuno", "Urano", "Jupiter", "Saturno", "Marte", "Lurra"], "answer": "Neptuno" },
-      { "question": "Zein planetak du Rea ilargia?", "options": ["Saturno", "Jupiter", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Saturno" },
-      { "question": "Zein planetak du Io ilargia?", "options": ["Jupiter", "Saturno", "Urano", "Neptuno", "Marte", "Lurra"], "answer": "Jupiter" },
-      { "question": "Zein planetak du Ariel ilargia?", "options": ["Urano", "Neptuno", "Jupiter", "Saturno", "Marte", "Lurra"], "answer": "Urano" }
+      {
+        "question": "Zein da Eguzkitik gertuen dagoen planeta?",
+        "options": [
+          "Merkurio",
+          "Artizarra",
+          "Lurra",
+          "Marte",
+          "Jupiter",
+          "Saturno"
+        ],
+        "answer": "Merkurio"
+      },
+      {
+        "question": "Nola deitzen da gure galaxia?",
+        "options": [
+          "Esne Bidea",
+          "Andromeda",
+          "Triangelua",
+          "Sombrero",
+          "Tokiko Multzoa",
+          "Zentauro A"
+        ],
+        "answer": "Esne Bidea"
+      },
+      {
+        "question": "Zein izar dago Lurrera gertuen?",
+        "options": [
+          "Eguzkia",
+          "Proxima Centauri",
+          "Sirius",
+          "Vega",
+          "Betelgeuse",
+          "Rigel"
+        ],
+        "answer": "Eguzkia"
+      },
+      {
+        "question": "Zein da Eguzki Sistemako planeta handiena?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Lurra",
+          "Artizarra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planeta da planeta gorria?",
+        "options": [
+          "Marte",
+          "Artizarra",
+          "Merkurio",
+          "Jupiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "Nola deitzen da Lurraren satelite naturala?",
+        "options": [
+          "Ilargia",
+          "Europa",
+          "Titan",
+          "Io",
+          "Fobos",
+          "Deimos"
+        ],
+        "answer": "Ilargia"
+      },
+      {
+        "question": "Zein planetak ditu eraztun ikusgarrienak?",
+        "options": [
+          "Saturno",
+          "Jupiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "Zer da izar iheskor bat?",
+        "options": [
+          "Meteoro bat",
+          "Leherketako izarra",
+          "Kometaren bat",
+          "Planeta bat",
+          "Satelite bat",
+          "Asteroide bat"
+        ],
+        "answer": "Meteoro bat"
+      },
+      {
+        "question": "Zein galaxia dago Esne Bidera gertuen?",
+        "options": [
+          "Andromeda",
+          "Triangelua",
+          "Sombrero",
+          "Zentauro A",
+          "Pegaso",
+          "Eskultorea"
+        ],
+        "answer": "Andromeda"
+      },
+      {
+        "question": "Zein planetak ditu ekaitz handiak, Orban Gorri Handia bezala?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Neptuno",
+          "Urano",
+          "Marte",
+          "Artizarra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zer da kometa bat?",
+        "options": [
+          "Izotza eta hautsa",
+          "Gas beroa",
+          "Harria",
+          "Metala",
+          "Plasma",
+          "Argia"
+        ],
+        "answer": "Izotza eta hautsa"
+      },
+      {
+        "question": "Zein indarrek mantentzen ditu planetak orbitan?",
+        "options": [
+          "Grabitatea",
+          "Magnetismoa",
+          "Inertzia",
+          "Igurtzia",
+          "Presioa",
+          "Energia"
+        ],
+        "answer": "Grabitatea"
+      },
+      {
+        "question": "Zein planetak du egun bat urte bat baino luzeagoa?",
+        "options": [
+          "Artizarra",
+          "Merkurio",
+          "Lurra",
+          "Marte",
+          "Jupiter",
+          "Urano"
+        ],
+        "answer": "Artizarra"
+      },
+      {
+        "question": "Zein planeta biratzen da alboz?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Saturno",
+          "Jupiter",
+          "Lurra",
+          "Artizarra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "Zer da Eguzkia?",
+        "options": [
+          "Izarra",
+          "Planeta",
+          "Kometa",
+          "Asteroidea",
+          "Nebulosa",
+          "Ilargia"
+        ],
+        "answer": "Izarra"
+      },
+      {
+        "question": "Nola deitzen da Eguzkiaren inguruan dauden planeten multzoa?",
+        "options": [
+          "Eguzki Sistema",
+          "Esne Bidea",
+          "Tokiko Multzoa",
+          "Unibertsoa",
+          "Nebulosa",
+          "Konstelazioa"
+        ],
+        "answer": "Eguzki Sistema"
+      },
+      {
+        "question": "Zein planeta da urdin ilunena?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Lurra",
+          "Jupiter",
+          "Artizarra",
+          "Marte"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein planetak ditu ilargi gehien?",
+        "options": [
+          "Saturno",
+          "Jupiter",
+          "Urano",
+          "Neptuno",
+          "Lurra",
+          "Marte"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "Zer da galaxia bat?",
+        "options": [
+          "Izar multzo bat",
+          "Planeta bat",
+          "Kometa bat",
+          "Satelite bat",
+          "Zulo beltz bat",
+          "Meteoro bat"
+        ],
+        "answer": "Izar multzo bat"
+      },
+      {
+        "question": "Zer da zulo beltz bat?",
+        "options": [
+          "Grabitate handiko eremua",
+          "Izar hotza",
+          "Planeta iluna",
+          "Kometa erraldoia",
+          "Asteroidea",
+          "Nebulosa"
+        ],
+        "answer": "Grabitate handiko eremua"
+      },
+      {
+        "question": "Zein planeta da dentsitate handiena duena?",
+        "options": [
+          "Lurra",
+          "Merkurio",
+          "Artizarra",
+          "Marte",
+          "Jupiter",
+          "Saturno"
+        ],
+        "answer": "Lurra"
+      },
+      {
+        "question": "Zein planeta da beroena?",
+        "options": [
+          "Artizarra",
+          "Merkurio",
+          "Lurra",
+          "Marte",
+          "Jupiter",
+          "Saturno"
+        ],
+        "answer": "Artizarra"
+      },
+      {
+        "question": "Zein planetak ditu eraztunak Saturnoz gain?",
+        "options": [
+          "Urano",
+          "Jupiter",
+          "Neptuno",
+          "Lurra",
+          "Marte",
+          "Artizarra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "Zer da nebulosa bat?",
+        "options": [
+          "Gas eta hauts hodeia",
+          "Planeta gaztea",
+          "Izar hotza",
+          "Kometa",
+          "Asteroidea",
+          "Ilargia"
+        ],
+        "answer": "Gas eta hauts hodeia"
+      },
+      {
+        "question": "Zein planetak du Titan ilargia?",
+        "options": [
+          "Saturno",
+          "Jupiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "Zein planetak du Europa ilargia?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planetak du Triton ilargia?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Jupiter",
+          "Saturno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein planetak du Fobos ilargia?",
+        "options": [
+          "Marte",
+          "Lurra",
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "Zein planetak du Ganimedes ilargia?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planetak du Enzelado ilargia?",
+        "options": [
+          "Saturno",
+          "Jupiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "Zer da asteroide bat?",
+        "options": [
+          "Harrizko objektua",
+          "Izar txikia",
+          "Planeta nanoa",
+          "Kometa",
+          "Ilargia",
+          "Gas beroa"
+        ],
+        "answer": "Harrizko objektua"
+      },
+      {
+        "question": "Zein planeta da erraldoi izoztua?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Jupiter",
+          "Saturno",
+          "Lurra",
+          "Artizarra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "Zein planeta da haize bortitzenengatik ezaguna?",
+        "options": [
+          "Neptuno",
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Marte",
+          "Artizarra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein planetak du egun laburrena?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Lurra",
+          "Marte",
+          "Artizarra",
+          "Urano"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planetak du urte luzeena?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Saturno",
+          "Jupiter",
+          "Marte",
+          "Artizarra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein da Eguzki Sistemako planeta txikiena?",
+        "options": [
+          "Merkurio",
+          "Marte",
+          "Artizarra",
+          "Lurra",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Merkurio"
+      },
+      {
+        "question": "Zein planetak du atmosfera trinkoen?",
+        "options": [
+          "Artizarra",
+          "Lurra",
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno"
+        ],
+        "answer": "Artizarra"
+      },
+      {
+        "question": "Zein planetak du Orban Ilun Handia?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Jupiter",
+          "Saturno",
+          "Marte",
+          "Artizarra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein planetak ditu sumendi gehien?",
+        "options": [
+          "Artizarra",
+          "Lurra",
+          "Marte",
+          "Jupiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Artizarra"
+      },
+      {
+        "question": "Zein planetak du Eguzki Sistemako mendirik altuena?",
+        "options": [
+          "Marte",
+          "Lurra",
+          "Artizarra",
+          "Jupiter",
+          "Saturno",
+          "Urano"
+        ],
+        "answer": "Marte"
+      },
+      {
+        "question": "Zer da supernova bat?",
+        "options": [
+          "Izar baten leherketa",
+          "Planeta erraldoia",
+          "Kometa distiratsua",
+          "Zulo beltza",
+          "Nebulosa",
+          "Asteroidea"
+        ],
+        "answer": "Izar baten leherketa"
+      },
+      {
+        "question": "Zer da exoplaneta bat?",
+        "options": [
+          "Eguzki Sistematik kanpoko planeta",
+          "Planeta nanoa",
+          "Ilargi erraldoia",
+          "Izar hotza",
+          "Kometa",
+          "Asteroidea"
+        ],
+        "answer": "Eguzki Sistematik kanpoko planeta"
+      },
+      {
+        "question": "Zein planetak du ardatz inklinazio handiena?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Saturno",
+          "Jupiter",
+          "Lurra",
+          "Artizarra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "Zein planetak du presio atmosferiko handiena?",
+        "options": [
+          "Artizarra",
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Lurra"
+        ],
+        "answer": "Artizarra"
+      },
+      {
+        "question": "Zein planetak du Kalisto ilargia?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planetak du Oberon ilargia?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Jupiter",
+          "Saturno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Urano"
+      },
+      {
+        "question": "Zein planetak du Nereida ilargia?",
+        "options": [
+          "Neptuno",
+          "Urano",
+          "Jupiter",
+          "Saturno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Neptuno"
+      },
+      {
+        "question": "Zein planetak du Rea ilargia?",
+        "options": [
+          "Saturno",
+          "Jupiter",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Saturno"
+      },
+      {
+        "question": "Zein planetak du Io ilargia?",
+        "options": [
+          "Jupiter",
+          "Saturno",
+          "Urano",
+          "Neptuno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "Zein planetak du Ariel ilargia?",
+        "options": [
+          "Urano",
+          "Neptuno",
+          "Jupiter",
+          "Saturno",
+          "Marte",
+          "Lurra"
+        ],
+        "answer": "Urano"
+      }
     ]
   }
 }
