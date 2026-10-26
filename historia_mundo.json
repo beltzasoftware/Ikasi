@@ -797,7 +797,127 @@
           "Amerikan"
         ],
         "answer": "Mesopotamian"
-      }
+      },
+        {
+    "question": "Zer da uraren zikloa?",
+    "options": ["Uraren etengabeko mugimendua", "Ibai bat", "Aintzira bat", "Itsaso bat", "Hodei bat", "Euria bakarrik"],
+    "answer": "Uraren etengabeko mugimendua",
+    "tags": ["uraren_zikloa"]
+  },
+  {
+    "question": "Ura etengabe mugitzen al da?",
+    "options": ["Bai", "Ez", "Batzuetan bakarrik", "Neguan bakarrik", "Udan bakarrik", "Gauez bakarrik"],
+    "answer": "Bai",
+    "tags": ["uraren_zikloa"]
+  },
+  {
+    "question": "Zein da uraren zikloaren lehen pausoa?",
+    "options": ["Lurruntzea", "Kondentsazioa", "Prezipitazioa", "Izoztea", "Urtzea", "Isurtzea"],
+    "answer": "Lurruntzea",
+    "tags": ["lurruntzea"]
+  },
+  {
+    "question": "Nork berotzen du ura lurruntzeko?",
+    "options": ["Eguzkiak", "Ilargiak", "Haizeak", "Izarrak", "Hodeiek", "Mendiek"],
+    "answer": "Eguzkiak",
+    "tags": ["lurruntzea"]
+  },
+  {
+    "question": "Zer bihurtzen da ura berotzen denean?",
+    "options": ["Lurruna", "Elurra", "Txingorra", "Izotza", "Harria", "Lokatza"],
+    "answer": "Lurruna",
+    "tags": ["lurruntzea"]
+  },
+  {
+    "question": "Nora igotzen da ur-lurruna?",
+    "options": ["Airean gora", "Lurrera", "Itsasoaren hondora", "Mendira bakarrik", "Basora", "Kobazulora"],
+    "answer": "Airean gora",
+    "tags": ["lurruntzea"]
+  },
+  {
+    "question": "Zein da uraren zikloaren bigarren pausoa?",
+    "options": ["Kondentsazioa", "Lurruntzea", "Prezipitazioa", "Izoztea", "Urtzea", "Filtrazioa"],
+    "answer": "Kondentsazioa",
+    "tags": ["kondentsazioa"]
+  },
+  {
+    "question": "Zer gertatzen da ur-lurruna hozten denean?",
+    "options": ["Hodei bihurtzen da", "Sua bihurtzen da", "Harria bihurtzen da", "Desagertzen da", "Lurra bihurtzen da", "Hondarra bihurtzen da"],
+    "answer": "Hodei bihurtzen da",
+    "tags": ["kondentsazioa"]
+  },
+  {
+    "question": "Zer sortzen da kondentsazioan?",
+    "options": ["Hodeiak", "Mendiak", "Ibaiak", "Zuhaitzak", "Animaliak", "Harriak"],
+    "answer": "Hodeiak",
+    "tags": ["kondentsazioa"]
+  },
+  {
+    "question": "Kondentsazioan ur-lurruna beroago ala hotzago bihurtzen da?",
+    "options": ["Hotzago", "Beroago", "Berdin geratzen da", "Desagertzen da", "Lehertzen da", "Gorritzen da"],
+    "answer": "Hotzago",
+    "tags": ["kondentsazioa"]
+  },
+  {
+    "question": "Zein da uraren zikloaren hirugarren pausoa?",
+    "options": ["Prezipitazioa", "Kondentsazioa", "Lurruntzea", "Izoztea", "Urtzea", "Lurreratzea"],
+    "answer": "Prezipitazioa",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Noiz gertatzen da prezipitazioa?",
+    "options": ["Hodeietan ura pilatzen denean", "Eguzkia ateratzen denean", "Haizea gelditzen denean", "Gauez bakarrik", "Udan bakarrik", "Itsasoa bare dagoenean"],
+    "answer": "Hodeietan ura pilatzen denean",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Zer gertatzen da hodeiek pisu handiegia dutenean?",
+    "options": ["Ura lurrera erortzen da", "Desagertu egiten dira", "Eguzki bihurtzen dira", "Mendi bihurtzen dira", "Itsasora jaisten dira", "Kolorea galtzen dute"],
+    "answer": "Ura lurrera erortzen da",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Zein da prezipitazio mota bat?",
+    "options": ["Euria", "Lurruna", "Hodeia", "Eguzkia", "Airea", "Itsasoa"],
+    "answer": "Euria",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Zein beste prezipitazio mota agertzen da irudian?",
+    "options": ["Elurra", "Lurruna", "Itsasoa", "Aintzira", "Ibai txikia", "Haizea"],
+    "answer": "Elurra",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Zein prezipitazio mota da izotz zatiz osatua?",
+    "options": ["Txingorra", "Euria", "Lurruna", "Hodeia", "Itsasoa", "Lainoa"],
+    "answer": "Txingorra",
+    "tags": ["prezipitazioa"]
+  },
+  {
+    "question": "Zerk laguntzen du uraren zikloa martxan mantentzen?",
+    "options": ["Eguzkiaren beroak", "Ilargiaren argiak", "Harriak", "Zuhaitzak bakarrik", "Animaliak", "Mendiak"],
+    "answer": "Eguzkiaren beroak",
+    "tags": ["uraren_zikloa"]
+  },
+  {
+    "question": "Lurrak ura galdu eta berriro jasotzen al du?",
+    "options": ["Bai", "Ez", "Batzuetan bakarrik", "Neguan bakarrik", "Udan bakarrik", "Inoiz ez"],
+    "answer": "Bai",
+    "tags": ["uraren_zikloa"]
+  },
+  {
+    "question": "Ur-lurruna airean gora egin ondoren zer bihur daiteke?",
+    "options": ["Hodeia", "Harria", "Mendia", "Zuhaitza", "Animalia", "Sua"],
+    "answer": "Hodeia",
+    "tags": ["kondentsazioa"]
+  },
+  {
+    "question": "Zein ordena da zuzena uraren zikloan?",
+    "options": ["Lurruntzea, kondentsazioa, prezipitazioa", "Prezipitazioa, lurruntzea, kondentsazioa", "Kondentsazioa, prezipitazioa, lurruntzea", "Lurruntzea, prezipitazioa, kondentsazioa", "Prezipitazioa, kondentsazioa, lurruntzea", "Kondentsazioa, lurruntzea, prezipitazioa"],
+    "answer": "Lurruntzea, kondentsazioa, prezipitazioa",
+    "tags": ["uraren_zikloa"]
+  }
     ]
   }
 }
