@@ -1,0 +1,243 @@
+{
+  "version": "0.0.1",
+  "items": [
+    {
+      "id": "math",
+      "es": "Matemáticas",
+      "eu": "Matematika",
+      "icon": "📐",
+      "type": "menu_math"
+    },
+    {
+      "id": "languages",
+      "es": "Idiomas",
+      "eu": "Hizkuntzak",
+      "icon": "🗣️",
+      "type": "menu_languages"
+    },
+    {
+      "id": "paises",
+      "es": "Países y Culturas",
+      "eu": "Herrialdeak eta Kulturak",
+      "icon": "🌍",
+      "items": [
+        {
+          "id": "Euskadi",
+          "es": "Euskadi",
+          "eu": "Euskadi",
+          "icon": "🏔️",
+          "file": "paises_culturas.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/paises_culturas.json",
+          "tags": ["geografia"]
+        },
+        {
+          "id": "Argentina",
+          "es": "Argentina",
+          "eu": "Argentina",
+          "icon": "🇦🇷",
+          "file": "paises_culturas.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/paises_culturas.json",
+          "tags": ["argentina"]
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "es": "Historia del Mundo",
+      "eu": "Munduko Historia",
+      "icon": "📜",
+      "file": "historia_mundo.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/historia_mundo.json"
+    },
+    {
+      "id": "flora",
+      "es": "Flora",
+      "eu": "Flora",
+      "icon": "🌿",
+      "file": "flora.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/flora.json"
+    },
+    {
+      "id": "fauna",
+      "es": "Fauna",
+      "eu": "Fauna",
+      "icon": "🐘",
+      "items": [
+        {
+          "id": "todo_fauna",
+          "es": "Todo",
+          "eu": "Dena",
+          "icon": "🦁 🦅 🦎 🐸 🐟 🐜",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["todo"]
+        },
+        {
+          "id": "mamiferos",
+          "es": "Mamíferos",
+          "eu": "Ugaztunak",
+          "icon": "🦁",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["mamifero"]
+        },
+        {
+          "id": "aves_folder",
+          "es": "Aves",
+          "eu": "Hegaztiak",
+          "icon": "🦅",
+          "items": [
+            {
+              "id": "rapaces",
+              "es": "Rapaces",
+              "eu": "Harpariak",
+              "icon": "🦉",
+              "file": "fauna.json",
+              "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+              "tags": ["rapaces"]
+            }
+          ]
+        },
+        {
+          "id": "reptiles",
+          "es": "Reptiles",
+          "eu": "Narrastiak",
+          "icon": "🦎",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["reptil"]
+        },
+        {
+          "id": "anfibios",
+          "es": "Anfibios",
+          "eu": "Anfibioak",
+          "icon": "🐸",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["anfibio"]
+        },
+        {
+          "id": "peces",
+          "es": "Peces",
+          "eu": "Arrainak",
+          "icon": "🐟",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["peces"]
+        },
+        {
+          "id": "insectos",
+          "es": "Insectos",
+          "eu": "Intsektuak",
+          "icon": "🐜",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["insectos"]
+        },
+        {
+          "id": "aracnidos",
+          "es": "Arácnidos",
+          "eu": "Araknidoak",
+          "icon": "🕷️",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["aracnidos"]
+        },
+        {
+          "id": "crustaceos",
+          "es": "Crustáceos",
+          "eu": "Krustazeoak",
+          "icon": "🦀",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["crustaceos"]
+        },
+        {
+          "id": "moluscos",
+          "es": "Moluscos",
+          "eu": "Moluskuak",
+          "icon": "🐚",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["molusco"]
+        },
+        {
+          "id": "gusanos",
+          "es": "Gusanos (Anélidos)",
+          "eu": "Zizareak (Anelidoak)",
+          "icon": "🪱",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["gusanos", "anelidos"]
+        },
+        {
+          "id": "cnidarios",
+          "es": "Cnidarios",
+          "eu": "Knidarioak",
+          "icon": "🪼",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["cnidarios"]
+        },
+        {
+          "id": "equinodermos",
+          "es": "Equinodermos",
+          "eu": "Ekinodermoak",
+          "icon": "⭐",
+          "file": "fauna.json",
+          "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/fauna.json",
+          "tags": ["equinodermos"]
+        }
+      ]
+    },
+    {
+      "id": "geografia",
+      "es": "Geografía Física",
+      "eu": "Geografia Fisikoa",
+      "icon": "⛰️",
+      "file": "geografia_fisica.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/geografia_fisica.json"
+    },
+    {
+      "id": "tierra",
+      "es": "Planeta Tierra",
+      "eu": "Lur Planeta",
+      "icon": "🌎",
+      "file": "planeta_tierra.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/planeta_tierra.json"
+    },
+    {
+      "id": "astronomia",
+      "es": "Astronomía y Universo",
+      "eu": "Astronomia eta Unibertsoa",
+      "icon": "🚀",
+      "file": "astronomia_universo.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/astronomia_universo.json"
+    },
+    {
+      "id": "ecosistemas",
+      "es": "Ecosistemas y Medio Ambiente",
+      "eu": "Ekosistemak eta Ingurumena",
+      "icon": "🌳",
+      "file": "ecosistemas_medio_ambiente.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/ecosistemas_medio_ambiente.json"
+    },
+    {
+      "id": "curiosidades",
+      "es": "Curiosidades del Mundo",
+      "eu": "Munduko Bitxikeriak",
+      "icon": "💡",
+      "file": "curiosidades_mundo.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/curiosidades_mundo.json"
+    },
+    {
+      "id": "examen",
+      "es": "Examen",
+      "eu": "Azterketa",
+      "icon": "📝",
+      "file": "examen.json",
+      "url": "https://raw.githubusercontent.com/beltzasoftware/Ikasi/refs/heads/main/examen.json",
+      "tags": ["examen", "avanzado"]
+    }
+  ]
+}
